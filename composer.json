@@ -1,0 +1,18 @@
+{
+  "require": {
+    "twig/twig": "~1.0",
+    "dnolbon/wordpress": "^0.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\AffiliateImporter\\": "src/Dnolbon/AffiliateImporter",
+      "Dnolbon\\WooCommerce\\": "src/Dnolbon/WooCommerce",
+      "Dnolbon\\AffiliateImporterAliexpress\\": "src/Dnolbon/AffiliateImporterAliexpress",
+      "Dnolbon\\AffiliateImporterBanggood\\": "src/Dnolbon/AffiliateImporterBanggood",
+      "Dnolbon\\AffiliateImporterAmazon\\": "src/Dnolbon/AffiliateImporterAmazon",
+      "Dnolbon\\AffiliateImporterEbay\\": "src/Dnolbon/AffiliateImporterEbay",
+      "Dnolbon\\AffiliateImporterEnvato\\": "src/Dnolbon/AffiliateImporterEnvato",
+      "Dnolbon\\Twig\\": "src/Dnolbon/Twig"
+    }
+  }
+}

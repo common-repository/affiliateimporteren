@@ -1,0 +1,690 @@
+{
+  "took": 10,
+  "matches": [
+    {
+      "id": 4649777,
+      "name": "Quest - All Purpose WordPress Theme",
+      "description": "\nQuest – All Purpose WordPress ThemeQuest is a straight and good looking theme designed to in a way that it can fit all sorts of content. With modern and clean lines, you can set up a nice website in a few minutes. Some key features:Retina ReadyShortcode ManagerAjaxed Portfolio (optional)Clean and functional gallery section with image descriptionsOne-click: install sample contentMultiple portfolio page typesMultiple blog page typesMultiple portfolio single posts layoutsComplete members section with single pages for each person (different teams can be created)Unlimited Blogs, Portfolios, Members, Sliders and color variationsVideo TutorialsEasy translationsTheme options cover a wide range of possibilitesTheme has been studied carefully to dis",
+      "description_html": "<p><a href=\"http://www.youtube.com/watch?v=sh7nOdjpVZ8&#38;list=PLWiviR4wWrsE5okKzOANe01Ib0zGtE2on\" rel=\"nofollow\"><img src=\"http://www.pirenko.com/no_erasing/shared/video-follow-16.png\" /></a>\n</p><h3 id=\"item-description__quest-all-purpose-wordpress-theme\">Quest &#8211; All Purpose WordPress Theme</h3>Quest is a straight and good looking theme designed to in a way that it can fit all sorts of content. With modern and clean lines, you can set up a nice website in a few minutes. Some key features:<br /><ul><li>Retina Ready</li><li>Shortcode Manager</li><li>Ajaxed Portfolio (optional)</li><li>Clean and functional gallery section with image descriptions</li><li>One-click: install sample content</li><li>Multiple portfolio page types</li><li>Multiple blog page types</li><li>Multiple portfolio single posts layouts</li><li>Complete members section with single pages for each person (different teams can be created)</li><li>Unlimited Blogs, Portfolios, Members, Sliders and color variations</li><li>Video Tutorials</li><li>Easy translations</li><li>Theme options cover a wide range of possibilites</li><li>Theme has been studied carefully to display perfectly on all types of devices</li></ul><h3 id=\"item-description__custom-admin-control-panel\">Custom Admin Control Panel</h3>Divided in 8 sections the Quest Options Panel will allow to take control of the theme without any trouble. It&#8217;s also very easy to translate all of the text that used on your website (it&#8217;s done directly on the theme options)<h3 id=\"item-description__10-customtemplate-pages\">10 CustomTemplate Pages</h3><ul><li>Page with Sections</li><li>Classic Blog Page with Ajax lazy &#8220;more posts&#8221; loading</li><li>Blog Page (big dates) with Ajax lazy &#8220;more posts&#8221; loading</li><li>Timeline Blog Page with Ajax lazy &#8220;more posts&#8221; loading</li><li>Masonry Blog Page with Ajax lazy &#8220;more posts&#8221; loading</li><li>Grid Portfolio Page with Isotope effects (unlimited portfolios can be created)</li><li>Masonry Portfolio Page with Isotope effects</li><li>Multigrid Portfolio Page with Isotope effects</li><li>Titled Portfolio Page with Isotope effects</li><li>Contact Page</li></ul><h3 id=\"item-description__3-custom-post-types\">3 Custom Post Types</h3><ul><li>Portfolio Items Custom Post type</li><li>Slides Custom Post type (unlimited sliders can be used with shortcodes)</li><li>Team Members Custom Post Type</li></ul><h3 id=\"item-description__7-custom-widgets\">7 Custom Widgets</h3><ul><li>Latest Posts widget</li><li>Latest Portfolio widget</li><li>Comments widget</li><li>Social Links widget</li><li>Advertising widget</li><li>Twitter widget</li><li>Video widget</li></ul><h3 id=\"item-description__other-features\">Other features</h3><ul><li>Shortcodes Manager &#8211; Accordion, Blockquote, Button, Carousel, Latest Comments, Latest Portfolio, Latest Posts, Layout, List, Message, Pricing Tables, Progress Bars, Section, Services, Tabs, Team Members, Theme Slider, Titles and Toggle</li><li>Widget ready (2 Sidebars)</li><li>Worpress custom menu ready</li><li>Font selector</li><li>60+ background patterns (and counting&#8230;)</li><li>Future implementations available: if there&#8217;s any new feature you might like on this theme, please send me an email and I&#8217;ll try to add it to the theme</li></ul>\n<p><a href=\"http://www.pirenko.com/mailing-list/\" rel=\"nofollow\"><img src=\"http://www.pirenko.com/no_erasing/shared/mailing-follow-16.png\" /></a><a href=\"http://twitter.com/pirenko\" rel=\"nofollow\"><img src=\"http://www.pirenko.com/no_erasing/shared/twitter-follow-16.png\" /></a><a href=\"http://www.facebook.com/Pirenko/\" rel=\"nofollow\"><img src=\"http://www.pirenko.com/no_erasing/shared/facebook-follow-16.png\" /></a><a href=\"http://themeforest.net/user/Pirenko/follow\"><img src=\"http://www.pirenko.com/no_erasing/shared/envato-follow-16.png\" /></a></p>\n<h3 id=\"item-description__theme-changelog\">Theme Changelog</h3>\n<br />Jan 13th, 2017 &#8211; 3.6<pre>Fixed image upload feature (WordPress 4.7)\nUpdated TGM Plugin\nUpdated Documentation\n</pre>\n<br />Jul 21st, 2016 &#8211; 3.5<pre>Updated TGM Plugin\nImproved WooCommerce support\nImproved Mailchimp for WP by ibericode support\nUpdated Documentation\n</pre>\n<br />Apr 15th, 2016 &#8211; 3.4<pre>Improved iOS compatibility\nImproved PHP 7 compatibility\nImproved WooCommerce compatibility\nFixed Twitter share button\nUpdated Documentation\nUpdated TGM\n</pre>\n<br />Sep 3rd, 2015 &#8211; 3.3<pre>Removed plugin related warnings (since WordPress 4.3)\nImproved WooCommerce support\nUpdated Envato WordPress Toolkit\n</pre>\n<br />Jun 26th, 2015 &#8211; 3.2<pre>Updated TGM Plugin Activation script\nUpdated prettyPhoto script - prettyPhoto XSS fix\n</pre>\n<br />Apr 26th, 2015 &#8211; 3.1<pre>Updated TGM Activation Plugin (security improvement)\nUpdated Documentation\n</pre>\n<br />Feb 20th, 2015 &#8211; 3.0<pre>Improved logo position on smaller devices\nImproved footer display when sidebar is off\nImproved qTranslate compatibility\nWooCommerce style adjustments (new plugin version)\nUpdated Envato WordPress toolkit\nUpdated documentation\n</pre>\n<br />May 2nd, 2014 &#8211; 2.9<pre>Improved Android devices detection\nFixed shortcodes button submenu display (WordPress 3.9)\n</pre>\n<br />Apr 28th, 2014 &#8211; 2.8<pre>Fixed tabs hashtag change\nFixed admin buttons icons display (WP 3.9 compatibility improvement)\n</pre>\n<br />Feb 12th, 2014 &#8211; 2.7<pre>Updates are now made using the Envato WordPress Toolkit\nImproved Woocommerce support\n</pre>\n<br />Dec 18th, 2013 &#8211; 2.6<pre>Added Google+ option to team members\nImproved blockquotes display\nImproved Mailchimp support\nFixed list styles display\nUpdated Documentation</pre>\n<br />Aug 18th, 2013 &#8211; 2.5<pre>Added compatibility with Pirenko Extra Fonts plugin\nFixed accordion height (new jQuery version)\n</pre><br />Aug 8th, 2013 &#8211; 2.4<pre>Added 5 Google Fonts\nFixed services shortcode display on Safari\nImproved child theme support\n</pre><br />Jun 13th, 2013 &#8211; 2.3<pre>Added &#8220;Get In Touch&#8221; translation option\nAdded Github link support to the top right menu\nMade Twitter widget compatible with  API 1.1\n</pre><br />Jun 10th, 2013 &#8211; 2.2<pre>Added Google + link support to the top right menu\nAdded option to change slugs for theme custom post types\nImplemented wp_mail function\nImproved gif files support\n</pre><br />May 21st, 2013 &#8211; 2.1<pre>Added the option to show slider text captions centered\nAdded the option to don't collapse top menu\nAdded related products module to the woocommerce empty cart page\nAdded 6 Google Fonts\nImproved multiple woocommerce elements display\nImproved page loading by reducing the number of HTTP requests\nFixed archives page under certain options\n</pre><br />May 12th, 2013 &#8211; 2.0<pre>Added WooCommerce support\n</pre><br />May 10th, 2013 &#8211; 1.1<pre>Improved child theme support\nImproved retina devices detection\nImproved Admin Menu display on Safari\nFixed error on shortcode slider when it has only 1 slide\nAdded Videos to the Documentation\nChanged some WP Dashboard options panels names\n</pre><br />May 8th, 2013 &#8211; 1.0<pre>Theme was released</pre><br /> <h3 id=\"item-description__sources-used\">Sources Used</h3> <ul><li><a href=\"http://jquery.org/\" rel=\"nofollow\">jQuery color animations by John Resig</a></li> <li><a href=\"http://users.tpg.com.au/j_birch/plugins/superfish/\" rel=\"nofollow\">Superfish Menu by Joel Birch</a></li> <li><a href=\"http://addyosmani.github.com/jquery-ui-bootstrap/\" rel=\"nofollow\">jQuery Ui Bootstrap Syle</a></li> <li><a href=\"http://foundation.zurb.com/\" rel=\"nofollow\">Foundation by Zurb</a></li> <li><a href=\"http://gsgd.co.uk/sandbox/jquery/easing/\" rel=\"nofollow\">jQuery easing by McGinley Smith</a></li> <li><a href=\"http://wordpress.org/extend/plugins/decent-comments/\" rel=\"nofollow\">Decent Comments by itthinx</a></li> <li><a href=\"http://www.farinspace.com/\" rel=\"nofollow\">WPAlchemy by Dimas Begunoff</a></li> <li><a href=\"https://gist.github.com/1367237\" rel=\"nofollow\">Image Resize Script by Victor Teixeira</a></li> <li><a href=\"https://github.com/louisremi/jquery-smartresize\" rel=\"nofollow\">Debounced Resize by Louis Remi</a></li> <li><a href=\"http://isotope.metafizzy.co\" rel=\"nofollow\">Isotope by David DeSandro</a></li> <li><a href=\"http://masonry.desandro.com\" rel=\"nofollow\">Masonry by David DeSandro</a></li> <li><a href=\"http://github.com/rstacruz/jquery.transit\" rel=\"nofollow\">jQuery Transit by Rico Sta. Cruz</a></li> <li><a href=\"http://www.seomoves.org/blog/web-design-development/dynotable-a-jquery-plugin-by-bob-tantlinger-2683/\" rel=\"nofollow\">dynoTable by Bob Tantlinger</a></li> <li><a href=\"http://caroufredsel.dev7studios.com/\" rel=\"nofollow\">CarouFredSel by Dev7Studios</a></li> <li><a href=\"http://craigsworks.com/projects/qtip2/\" rel=\"nofollow\">jQuery qTip2 by Craig Thompson</a></li> <li><a href=\"http://www.ambrosite.com/plugins\" rel=\"nofollow\">Ambrosite Next/Previous Post Link Plus</a></li> <li><a href=\"http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/\" rel=\"nofollow\">Prettyphoto Lightbox</a></li> <li><a href=\"http://www.woothemes.com/flexslider/\" rel=\"nofollow\">Flexslider by Woothemes</a></li> <li><a href=\"http://www.mezzoblue.com/\" rel=\"nofollow\">Paintbrush by David Shea</a></li> <li><a href=\"http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/\" rel=\"nofollow\">Elastislide by Mary Lou</a></li> <li><a href=\"http://subtlepatterns.com/\" rel=\"nofollow\">Background Patterns by Subtle Patterns</a></li> <li><a href=\"http://www.premiumpixels.com/freebies/41-social-media-icons-png/\" rel=\"nofollow\">Social Network Icons by premiumpixels</a></li> <li><a href=\"http://www.entypo.com/\" rel=\"nofollow\">Entypo Font by Daniel Bruce</a></li> <li><a href=\"http://www.fontello.com/\" rel=\"nofollow\">Fontello Font Service</a></li> <li><a href=\"http://hany.fr/\" rel=\"nofollow\">Sharrre jQuery plugin by Julien Hany</a></li> </ul> <br /><br />Image Credits (used on the theme preview and not included on the theme file package) <ul> <li><a href=\"http://www.flickr.com/photos/markjsebastian/\" rel=\"nofollow\">markjsebastian on Flickr</a></li> <li><a href=\"http://www.isabelarodrigues.org/\" rel=\"nofollow\">Isabela Rodrigues</a></li> <li><a href=\"http://www.bife.co/\" rel=\"nofollow\">Gustavo Bife Fernandes</a></li> <li><a href=\"http://www.paulolataes.com\" rel=\"nofollow\">Paulo Latães</a></li> <li><a href=\"http://justinmezzell.com/\" rel=\"nofollow\">Justin Mezzell</a></li> <li><a href=\"http://pixabay.com/\" rel=\"nofollow\">Pixabay</a></li> <li><a href=\"http://www.logoopenstock.com/\" rel=\"nofollow\">Logo Open Stock</a></li> </ul>",
+      "site": "themeforest.net",
+      "classification": "wordpress",
+      "classification_url": "http://themeforest.net/category/wordpress",
+      "price_cents": 4900,
+      "number_of_sales": 268,
+      "author_username": "Pirenko",
+      "author_url": "http://themeforest.net/user/Pirenko",
+      "author_image": "https://0.s3.envato.com/files/218816358/pirenko-16.png",
+      "url": "http://themeforest.net/item/quest-all-purpose-wordpress-theme/4649777",
+      "summary": "High Resolution: Yes, Widget Ready: Yes, Compatible Browsers: IE9, IE10, IE11, Firefox, Safari, Opera, Chrome, Compatible With: WooCommerce 2.6.x, WooCommerce 2.5, WooCommerce 2.4.x, WooCommerce 2.3.x, Software Version: WordPress 4.7.x, WordPress 4.6.1, WordPress 4.6, WordPress 4.5.x, WordPress 4.5.2, WordPress 4.5.1, WordPress 4.5, WordPress 4.4.2, WordPress 4.4.1, WordPress 4.4, WordPress 4.3.1, WordPress 4.3, WordPress 4.2, WordPress 4.1",
+      "rating": {
+        "rating": 4.69,
+        "count": 36
+      },
+      "updated_at": "2017-01-13T20:04:02Z",
+      "published_at": "2013-05-08T14:25:20Z",
+      "trending": false,
+      "previews": {
+        "icon_with_landscape_preview": {
+          "icon_url": "https://0.s3.envato.com/files/219791718/quest-th.png",
+          "landscape_url": "https://0.s3.envato.com/files/219791720/quest.__large_preview.jpg"
+        },
+        "live_site": {
+          "url": "http://themeforest.net/item/quest-all-purpose-wordpress-theme/full_screen_preview/4649777"
+        },
+        "landscape_preview": {
+          "landscape_url": "https://0.s3.envato.com/files/219791720/quest.__large_preview.jpg"
+        }
+      },
+      "attributes": [
+        {
+          "name": "columns",
+          "value": null
+        },
+        {
+          "name": "compatible-browsers",
+          "value": [
+            "IE9",
+            "IE10",
+            "IE11",
+            "Firefox",
+            "Safari",
+            "Opera",
+            "Chrome"
+          ]
+        },
+        {
+          "name": "compatible-software",
+          "value": [
+            "WordPress 4.7.x",
+            "WordPress 4.6.1",
+            "WordPress 4.6",
+            "WordPress 4.5.x",
+            "WordPress 4.5.2",
+            "WordPress 4.5.1",
+            "WordPress 4.5",
+            "WordPress 4.4.2",
+            "WordPress 4.4.1",
+            "WordPress 4.4",
+            "WordPress 4.3.1",
+            "WordPress 4.3",
+            "WordPress 4.2",
+            "WordPress 4.1"
+          ]
+        },
+        {
+          "name": "compatible-with",
+          "value": [
+            "WooCommerce 2.6.x",
+            "WooCommerce 2.5",
+            "WooCommerce 2.4.x",
+            "WooCommerce 2.3.x"
+          ]
+        },
+        {
+          "name": "demo-url",
+          "value": "http://www.munto.net/previews/redirect.php?theme=quest"
+        },
+        {
+          "name": "documentation",
+          "value": "Well Documented"
+        },
+        {
+          "name": "framework",
+          "value": null
+        },
+        {
+          "name": "high-resolution",
+          "value": "Yes"
+        },
+        {
+          "name": "layout",
+          "value": "Liquid"
+        },
+        {
+          "name": "themeforest-files-included",
+          "value": [
+            "PHP Files",
+            "CSS Files",
+            "JS Files"
+          ]
+        },
+        {
+          "name": "widget-ready",
+          "value": "Yes"
+        }
+      ],
+      "tags": [
+        "agency",
+        "business",
+        "clean",
+        "colored",
+        "corporate",
+        "creative",
+        "ecommerce",
+        "minimal",
+        "modern",
+        "multipurpose",
+        "portfolio",
+        "responsive",
+        "shop",
+        "store",
+        "stylish"
+      ]
+    },
+    {
+      "id": 19277890,
+      "name": "Insurance - Consulting WordPress Theme",
+      "description": "We are delighted to introduce our Insurance WordPress theme highly suitable for creating websites for consulting business and insurance company, independent auditors, agencies, trading companies. With the special features to this niche segment, Insurance theme is the answer for your requirements.\n\n\n\n\n\tInsurance is a very well designed WordPress theme with blog, multiple galleries, unlimited color schemes, events, WooCommerce powered store, Timeline, Layer slider and team pages. This theme is created with a responsive design offering a perfect fit in any device.\n\n\n\tInsurance is designed with a express purpose to support your quest for addressing the Insurance industry.\n\n\n\tResponsive: This theme is a 100% Responsive theme that will load in an",
+      "description_html": "<p>We are delighted to introduce our <strong>Insurance WordPress theme</strong> highly suitable for creating websites for <strong>consulting business and insurance company, independent auditors, agencies, trading companies</strong>. With the special features to this niche segment, Insurance theme is the answer for your requirements.\n<br /><br />\n<img src=\"http://www.iamdesigning.com/themes/promotion/insurance/promo.jpg\" /></p>\n\n\n\t<p>Insurance is a very well designed WordPress theme with <strong>blog, multiple galleries, unlimited color schemes, events, WooCommerce powered store, Timeline, Layer slider and team pages</strong>. This theme is created with a responsive design offering a perfect fit in any device.</p>\n\n\n\t<p>Insurance is designed with a express purpose to support your quest for addressing the Insurance industry.</p>\n\n\n\t<p><strong>Responsive: </strong>This theme is a 100% Responsive theme that will load in any device quick regardless of the screen resolution. Insurance theme actually is an elegant niche WordPress Theme for the industries involved in Insurance. With a one click demo install, you can customize your pages to suit your site and business.</p>\n\n\n\t<p><strong>HTML &#38; CSS: </strong> This Insurance theme is built on the latest valid HTML5 &#38; CSS3 with  w3c Validation.</p>\n\n\n\t<p>This means your site is updated to the latest technology and coded with semantic coding and built in with SEO techniques for higher rankings by the search engines. Insurance Theme is SEO friendly as semantic codes are built-in from the ground up while designing the theme itself. Your site will always rank higher in all the leading search engines.</p>\n\n\n\t<p><strong>WPML:</strong> The theme supports the multilingual plugin WPML so that your site will be truly international with a wide reach as Insurance Theme is WPML compatible.</p>\n\n\n\t<p><strong>NOTE:</strong> Images used in the demo are not included for download, these images are copyrighted, if you are planning to use the photos we can provide the links to buy license.</p>\n\n\n<h3 id=\"item-description__-insurance-wordpress-theme-changelog\"><b>*Insurance WordPress Theme Changelog *</b></h3>\n\n\t<p><strong>2017.01.31 &#8211; version 1.1</strong>\n<pre> * Updated dummy data</pre></p>\n\n\n\t<p><strong>2017.11.07 &#8211; version 1.0</strong>\n<pre> * First release!</pre></p>",
+      "site": "themeforest.net",
+      "classification": "wordpress/corporate/business",
+      "classification_url": "http://themeforest.net/category/wordpress/corporate/business",
+      "price_cents": 5900,
+      "number_of_sales": 9,
+      "author_username": "designthemes",
+      "author_url": "http://themeforest.net/user/designthemes",
+      "author_image": "https://0.s3.envato.com/files/117721881/dt-logo-small-updated.png",
+      "url": "http://themeforest.net/item/insurance-consulting-wordpress-theme/19277890",
+      "summary": "High Resolution: Yes, Widget Ready: Yes, Compatible Browsers: IE10, IE11, Firefox, Safari, Opera, Chrome, Compatible With: WPML, WooCommerce 2.6.x, Visual Composer 4.12.x, Software Version: WordPress 4.7.x, Columns: 4+",
+      "rating": {
+        "rating": 0.0,
+        "count": 0
+      },
+      "updated_at": "2017-01-31T18:15:49Z",
+      "published_at": "2017-01-17T18:23:54Z",
+      "trending": false,
+      "previews": {
+        "icon_with_landscape_preview": {
+          "icon_url": "https://0.s3.envato.com/files/220320779/thumb2.png",
+          "landscape_url": "https://0.s3.envato.com/files/219547938/preview.__large_preview.jpg"
+        },
+        "live_site": {
+          "url": "http://themeforest.net/item/insurance-consulting-wordpress-theme/full_screen_preview/19277890"
+        },
+        "landscape_preview": {
+          "landscape_url": "https://0.s3.envato.com/files/219547938/preview.__large_preview.jpg"
+        }
+      },
+      "attributes": [
+        {
+          "name": "columns",
+          "value": "4+"
+        },
+        {
+          "name": "compatible-browsers",
+          "value": [
+            "IE10",
+            "IE11",
+            "Firefox",
+            "Safari",
+            "Opera",
+            "Chrome"
+          ]
+        },
+        {
+          "name": "compatible-software",
+          "value": [
+            "WordPress 4.7.x"
+          ]
+        },
+        {
+          "name": "compatible-with",
+          "value": [
+            "WPML",
+            "WooCommerce 2.6.x",
+            "Visual Composer 4.12.x"
+          ]
+        },
+        {
+          "name": "demo-url",
+          "value": "http://wedesignthemes.com/themes/insurance/landing/"
+        },
+        {
+          "name": "documentation",
+          "value": "Well Documented"
+        },
+        {
+          "name": "framework",
+          "value": null
+        },
+        {
+          "name": "high-resolution",
+          "value": "Yes"
+        },
+        {
+          "name": "layout",
+          "value": "Responsive"
+        },
+        {
+          "name": "themeforest-files-included",
+          "value": [
+            "PHP Files",
+            "CSS Files",
+            "JS Files"
+          ]
+        },
+        {
+          "name": "widget-ready",
+          "value": "Yes"
+        }
+      ],
+      "tags": [
+        "advisor",
+        "broker",
+        "brokerage",
+        "business",
+        "business wp",
+        "coach",
+        "company",
+        "consulting",
+        "consulting wp",
+        "corporate",
+        "finance",
+        "financial",
+        "insurance",
+        "trader",
+        "trading"
+      ]
+    },
+    {
+      "id": 19269264,
+      "name": "Construction - Architecture, Construction Business Theme",
+      "description": "Construction WordPress Theme will be highly suitable for architects, building companies, independent builders, engineering companies, interior designers, plumbers, electricians as well as painters. Armed with the features special to this niche, Construction theme is the answer for your requirements and design ideas. Construction is a very well designed WordPress theme with blog, multiple gallery or project designs, unlimited color schemes, events, WooCommerce powered store, Timeline, Dynamic Revolution Slide, Layer slider and team pages. This theme is created with a responsive design offering a perfect fit in any device. Construction is designed with a express purpose to support your quest for addressing the building industry. Comes with an",
+      "description_html": "<p><strong>Construction WordPress Theme</strong> will be highly suitable for <strong>architects, building companies, independent builders, engineering companies, interior designers, plumbers, electricians as well as painters.</strong> Armed with the features special to this niche, Construction theme is the answer for your requirements and design ideas. Construction is a very well designed WordPress theme with blog, multiple gallery or project designs, unlimited color schemes, events, WooCommerce powered store, Timeline, Dynamic Revolution Slide, Layer slider and team pages. This theme is created with a responsive design offering a perfect fit in any device. <br /><br />Construction is designed with a express purpose to support your quest for addressing the building industry. Comes with an amazing toggle menu that offers awesome navigation ease to access your pages with ease both in mobiles and desktops. <br /><br />\n<img src=\"http://www.iamdesigning.com/themes/promotion/construction/promo.jpg\" />\n<br /><br />\n<strong>Responsive: </strong>Construction theme is a 100% Responsive theme that will load in any device quick regardless of the screen resolution. Construction theme actually is an elegant niche WordPress Theme for the industries involved in Construction. With a one click demo install, you can customize your pages to suit your site and business. <br /><br /><strong>HTML &#38; CSS:</strong> This Construction theme is built on the latest valid HTML5 &#38; CSS3 with w3c Validation. This means your site is updated to the latest technology and coded with semantic coding and built in with SEO techniques for higher rankings by the search engines. Construction Theme is SEO friendly as semantic codes are built-in from the ground up while designing the theme itself. Your site will always rank higher in all the leading search engines. <br /><br /><strong>WPML:</strong> Construction theme supports the multilingual plugin WPML so that your site will be truly international with a wide reach as Construction Theme is WPML compatible.<br /><br /></p><h2 id=\"item-description__key-features-of-construction-theme\">Key features of Construction theme: </h2><br /><br /><strong>Visual Composer:</strong> The Visual Composer plugin with its drag and drop features, makes the job of designing the pages a breeze! In combination with the shortcodes, you can configure any module you want in any page of your site like a professional designer. There are many modules that you can specifically design and display in any page of your site. <br /><br /><strong>Customization options:</strong> The Visual Composer in tandem with shortcodes gives you enormous power to design any type of modules and pages in your site. Construction theme comes in boxed and fullwidth layouts with the special menu of Construction menu layout options. The powerful backend framework, Buddha Panel is provided in Construction theme. Buddha Panel takes care of most of your customization requirements easily. <br /><br /><strong>Plugins galore:</strong> In Construction theme the following Plugins worth $77 is given free! Visual Composer $34, Ultimate Addon $18, Revolution slider worth $25 totaling a whopping $ 77! <br /><br />The other Plugins: Contact form 7, Google map, WPML-multilingual, MailChimp and WooCommerce.<br /><br /><strong>MailChimp:</strong> Construction theme is compatible with MailChimp which is the most popular online email marketing plugin for building your subscriber base and manage them. <br /><br /><strong>Browsers:</strong> Construction theme is cross browser compatible. All the leading browsers like Chrome, Firefox, Internet Explorer, Opera and Edge will enable smooth loading of the theme. <br /><br /><strong>Shortcodes galore:</strong> Using the shortcodes, you can build any module of your choice in any page! <ol> <li>block quotes </li> <li>buttons and lists</li> <li>carousel</li> <li>columns</li> <li>contact info</li> <li>custom posts</li> <li>fancy boxes</li> <li>icon boxes</li> <li>image with caption</li> <li>miscellaneous</li> <li>number counter</li> <li>pricing table</li> <li>progress bar</li> <li>tabs &#38; toggles</li> <li>team</li> <li>testimonials</li> <li>testimonial carousel</li> <li>timeline</li> <li>typography</li> </ol><br /><br /><strong>Time Line:</strong> Time lined company history for highlighting your journey y is provided in Construction theme. From the year your project was founded to the current year depicting the road travelled and displaying the progress of your commitment as a whole would serve as a impressive record for your efforts. Using the shortcodes, you would be able to design this module and display on your page. <br /><br /><strong>BLOG:</strong> Blogging at its best in Construction theme because you have to write extensively on these topics of apartments and skyscrapers! 6 types of blogging layouts comprising of single column to 4 column layout with right and left side bars enabled. The blog layout offers default, date and author left, date left, medium, medium highlight, medium skin highlight as well as both side bars as well as no side bar options! <br /><br /><strong>Portfolios:</strong> A total of 9 types of Portfolio layout is available. They are art, classic, girly, icons only, minimal icons, modern title, presentation, title &#38; icons overlay and title overlay. As many as 9 classic portfolio section provided with myriad layout options such as fullwidth, 2 to 4 column layouts, with LHS, RHS and gallery and single pages. <br /><br /><strong>Legendary support: </strong>Construction theme is introduced by Designthemes whose reputation on providing support is legendary! Ask any of our satisfied customers about the service we provide for customers through ThemeForest forums, 24/7 knowledge base and online support. <br /><br />The extensive documentation on the themes, user guides &#38; video tutorials will ensure each of your queries is well resolved. If you are urgently in need of a quick fix solution, submit a ticket to support forum to receive support. Make an informed choice and go for Construction theme to run your construction and building businesses.\n<br /><br />\n\n\n<h3 id=\"item-description__changelog\"><b>Changelog</b></h3>\n\n\t<p><strong>2017.01.21 &#8211; version 1.1</strong>\n<pre> * Optimised dummy content updated\n * Some design tweaks fixed</pre></p>\n\n\n\t<p><strong>2017.01.05 &#8211; version 1.0</strong>\n<pre> * First release!</pre></p>\n\n\n\t<p>NOTES: * Images or images used in sliders and banner examples are not included in this theme</p>",
+      "site": "themeforest.net",
+      "classification": "wordpress/corporate/business",
+      "classification_url": "http://themeforest.net/category/wordpress/corporate/business",
+      "price_cents": 5900,
+      "number_of_sales": 4,
+      "author_username": "designthemes",
+      "author_url": "http://themeforest.net/user/designthemes",
+      "author_image": "https://0.s3.envato.com/files/117721881/dt-logo-small-updated.png",
+      "url": "http://themeforest.net/item/construction-a-theme-for-architects-and-builders/19269264",
+      "summary": "High Resolution: Yes, Widget Ready: Yes, Compatible Browsers: IE10, IE11, Firefox, Safari, Opera, Chrome, Compatible With: WPML, BuddyPress 2.5.x, WooCommerce 2.6.x, bbPress 2.5.x, Events Calendar Pro 3.12.x, Visual Composer 4.12.x, Software Version: WordPress 4.7.x, Columns: 4+",
+      "rating": {
+        "rating": 0.0,
+        "count": 0
+      },
+      "updated_at": "2017-02-03T19:14:40Z",
+      "published_at": "2017-01-10T02:03:18Z",
+      "trending": false,
+      "previews": {
+        "icon_with_landscape_preview": {
+          "icon_url": "https://0.s3.envato.com/files/219806219/thumb2-const.png",
+          "landscape_url": "https://0.s3.envato.com/files/219464591/preview.__large_preview.jpg"
+        },
+        "live_site": {
+          "url": "http://themeforest.net/item/construction-a-theme-for-architects-and-builders/full_screen_preview/19269264"
+        },
+        "landscape_preview": {
+          "landscape_url": "https://0.s3.envato.com/files/219464591/preview.__large_preview.jpg"
+        }
+      },
+      "attributes": [
+        {
+          "name": "columns",
+          "value": "4+"
+        },
+        {
+          "name": "compatible-browsers",
+          "value": [
+            "IE10",
+            "IE11",
+            "Firefox",
+            "Safari",
+            "Opera",
+            "Chrome"
+          ]
+        },
+        {
+          "name": "compatible-software",
+          "value": [
+            "WordPress 4.7.x"
+          ]
+        },
+        {
+          "name": "compatible-with",
+          "value": [
+            "WPML",
+            "BuddyPress 2.5.x",
+            "WooCommerce 2.6.x",
+            "bbPress 2.5.x",
+            "Events Calendar Pro 3.12.x",
+            "Visual Composer 4.12.x"
+          ]
+        },
+        {
+          "name": "demo-url",
+          "value": "http://wedesignthemes.com/themes/construction/landing/"
+        },
+        {
+          "name": "documentation",
+          "value": "Well Documented"
+        },
+        {
+          "name": "framework",
+          "value": null
+        },
+        {
+          "name": "high-resolution",
+          "value": "Yes"
+        },
+        {
+          "name": "layout",
+          "value": "Responsive"
+        },
+        {
+          "name": "themeforest-files-included",
+          "value": [
+            "PHP Files",
+            "CSS Files",
+            "JS Files"
+          ]
+        },
+        {
+          "name": "widget-ready",
+          "value": "Yes"
+        }
+      ],
+      "tags": [
+        "architect",
+        "builder",
+        "company",
+        "construction",
+        "contractor",
+        "electrician",
+        "engineer",
+        "home builders",
+        "insurance",
+        "interior",
+        "painting",
+        "plumber",
+        "real estate",
+        "renovation"
+      ]
+    }
+  ],
+  "timed_out": false,
+  "total_hits": 3,
+  "links": {
+    "next_page_url": null,
+    "prev_page_url": null,
+    "first_page_url": "https://public-search-api.discovery.envato.net/search/item?category=wordpress&page=1&page_size=20&site=themeforest.net&term=quest",
+    "last_page_url": "https://public-search-api.discovery.envato.net/search/item?category=wordpress&page=1&page_size=20&site=themeforest.net&term=quest"
+  },
+  "author_exists": false,
+  "aggregations": {
+    "category_root_count": {
+      "key": null,
+      "count": 5,
+      "description": null
+    },
+    "category": [
+      {
+        "key": "wordpress",
+        "count": 3,
+        "description": null
+      },
+      {
+        "key": "wordpress/corporate",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "marketing",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "psd-templates",
+        "count": 1,
+        "description": null
+      }
+    ],
+    "platform_root_count": {
+      "key": null,
+      "count": 3,
+      "description": null
+    },
+    "platform": [
+      {
+        "key": "WordPress",
+        "count": 3,
+        "description": null
+      }
+    ],
+    "file_formats": null,
+    "tags": [
+      {
+        "key": "business",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "company",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "corporate",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "insurance",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "advisor",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "agency",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "architect",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "broker",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "brokerage",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "builder",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "business wp",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "clean",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "coach",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "colored",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "construction",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "consulting",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "consulting wp",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "contractor",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "creative",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "ecommerce",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "electrician",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "engineer",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "finance",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "financial",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "home builders",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "interior",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "minimal",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "modern",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "multipurpose",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "painting",
+        "count": 1,
+        "description": null
+      }
+    ],
+    "colors": null,
+    "rating": [
+      {
+        "key": "1",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "2",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "3",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "4",
+        "count": 1,
+        "description": null
+      }
+    ],
+    "date": [
+      {
+        "key": "this-year",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "this-month",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "this-week",
+        "count": 0,
+        "description": null
+      },
+      {
+        "key": "this-day",
+        "count": 0,
+        "description": null
+      }
+    ],
+    "size": null,
+    "sales_count": [
+      {
+        "key": "rank-0",
+        "count": 0,
+        "description": null
+      },
+      {
+        "key": "rank-1",
+        "count": 0,
+        "description": null
+      },
+      {
+        "key": "rank-2",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "rank-3",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "rank-4",
+        "count": 0,
+        "description": null
+      }
+    ],
+    "cost": {
+      "count": 3,
+      "min": 4900.0,
+      "max": 5900.0,
+      "avg": 5566.66666666667,
+      "sum": 16700.0
+    },
+    "length": null,
+    "tempo": null,
+    "alpha": null,
+    "looped": null,
+    "resolution": null,
+    "vocals_in_audio": null,
+    "frame_rate": null,
+    "compatible_with": [
+      {
+        "key": "WooCommerce",
+        "count": 3,
+        "description": null
+      },
+      {
+        "key": "Visual Composer",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "WPML",
+        "count": 2,
+        "description": null
+      },
+      {
+        "key": "BuddyPress",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "Events Calendar Pro",
+        "count": 1,
+        "description": null
+      },
+      {
+        "key": "bbPress",
+        "count": 1,
+        "description": null
+      }
+    ]
+  },
+  "suggestions": []
+}

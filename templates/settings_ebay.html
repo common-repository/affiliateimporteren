@@ -1,0 +1,107 @@
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" name="affiliate_settings" value="1"/>
+    <div class="text_content">
+        <h3>Common settings</h3>
+        <table class="form-table">
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="ebdn_ebay_per_page">Products per page</label>
+                </td>
+                <td class="forminp forminp-text">
+                    <input type="text" id="ebdn_ebay_per_page" name="options[ebdn_ebay_per_page]"
+                           value="{{ perPage }}"/>
+                    <span class="description">the maximum number of items is 100</span>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label
+                        for="ebdn_ebay_extends_cats">Use sub categories</label>
+                </td>
+                <td class="forminp forminp-text">
+                    <input type="checkbox"
+                           id="ebdn_ebay_extends_cats"
+                           name="options[ebdn_ebay_extends_cats]"
+                           value="yes" {% if extendedCats %}checked{% endif %}/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="text_content">
+        <h3>Affiliate settings</h3>
+        <table class="form-table">
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="ebdn_ebay_custom_id">CustomId</label>
+                </td>
+                <td class="forminp forminp-text">
+                    <input type="text"
+                           id="ebdn_ebay_custom_id"
+                           name="ebdn_ebay_custom_id"
+                           value="{{ customId }}"
+                    />
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="ebdn_ebay_geo_targeting">geoTargeting</label>
+                </td>
+                <td class="forminp forminp-text">
+                    <input type="checkbox"
+                           id="ebdn_ebay_geo_targeting"
+                           name="ebdn_ebay_geo_targeting"
+                           value="yes" {% if geoTargeting %}checked{% endif %}/>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="ebdn_ebay_network_id">Network_id</label>
+                </td>
+                <td class="forminp forminp-select">
+                    
+                    <select name="ebdn_ebay_network_id" id="ebdn_ebay_network_id">
+                        <option value="2"
+                        {% if networkId == '2' %}selected="selected"{% endif %}
+                        ><?php _ex('Be Free', 'Setting option', 'ebdn'); ?></option>
+                        <option value="3"
+                        {% if networkId == '3' %}selected="selected"{% endif %}
+                        ><?php _ex('Affilinet', 'Setting option', 'ebdn'); ?></option>
+                        <option value="4"
+                        {% if networkId == '4' %}selected="selected"{% endif %}
+                        ><?php _ex('TradeDoubler', 'Setting option', 'ebdn'); ?></option>
+                        <option value="5"
+                        {% if networkId == '5' %}selected="selected"{% endif %}
+                        ><?php _ex('Mediaplex', 'Setting option', 'ebdn'); ?></option>
+                        <option value="6"
+                        {% if networkId == '6' %}selected="selected"{% endif %}
+                        ><?php _ex('DoubleClick', 'Setting option', 'ebdn'); ?></option>
+                        <option value="7"
+                        {% if networkId == '7' %}selected="selected"{% endif %}
+                        ><?php _ex('Allyes', 'Setting option', 'ebdn'); ?></option>
+                        <option value="8"
+                        {% if networkId == '8' %}selected="selected"{% endif %}
+                        ><?php _ex('BJMT', 'Setting option', 'ebdn'); ?></option>
+                        <option value="9"
+                        {% if networkId == '9' %}selected="selected"{% endif %}
+                        ><?php _ex('eBay Partner Network', 'Setting option', 'ebdn'); ?></option>
+                    </select>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="ebdn_ebay_tracking_id">TrackingId</label>
+                </td>
+                <td class="forminp forminp-text">
+                    <input type="text"
+                           id="ebdn_ebay_tracking_id"
+                           name="options[ebdn_ebay_tracking_id]"
+                           value="{{ trackingId }}"
+                    />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="text_content">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>

@@ -1,0 +1,331 @@
+<div class="wrap"><h2 class="nav-tab-wrapper"></h2></div>
+
+<div class="wrap light-tabs" default-rel="{{ defaultPage }}" id="affiliate_container" data-prefix="{{ prefix }}">
+    <h2 class="nav-tab-wrapper">
+        <a href="#" class="nav-tab nav-tab-active" rel="filter_settings">Filter</a>
+        <a href="#" class="nav-tab nav-tab-active" rel="results">Results</a>
+        <a href="#" class="nav-tab nav-tab-active" rel="blacklist">Blacklist</a>
+    </h2>
+    <div class="tab_content" rel="filter_settings">
+        <form id="search-form" method="GET">
+            <input type="hidden" name="is_results" value="1"/>
+            <input type="hidden" name="type" value="{{ type }}"/>
+            <input type="hidden" id="reset" name="reset" value=""/>
+            <input type="hidden" name="page" id="page" value="{{ page }}"/>
+
+            <div class="separator"></div>
+            <div class="text_content">
+                <h2>Search Filter</h2>
+
+                <table class="settings_table">
+                    <tbody>
+                    {% for filter in filters %}
+                    {% if filter.config is defined %}
+                    {% set config = filter.config %}
+                    <tr>
+                        <td>
+                            {% if config.label is defined %}
+                            <label>{{ config.label }}:</label>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if config.type is defined and config.type == 'select' %}
+                            {% set multiple = 0 %}
+                            {% if config.multiple is defined and config.multiple %}
+                            {% set multiple = 1 %}
+                            {% endif %}
+                            <select {% if multiple %}multiple {% endif %}
+                                    id="{{ filter.name|e }}"
+                                    name="{{ filter.name|e }}{% if multiple %}[]{% endif %}"
+                                    class="{% if config.class is defined %}{{ config.class|e }}{% endif %}"
+                                    style="{% if config.style is defined %}{{ config.style|e }}{% endif %}"
+                            >
+                                {% for element in config.data_source %}
+                                {% if multiple %}
+                                <option {% if element.level is defined %}class="level_{{ element.level}}" {% endif %}
+                                        value="{{ element.id }}">{{ element.name }}
+                                </option>
+                                {% else %}
+                                <option
+                                        {% if resultFilter[filter.name] is defined and resultFilter[filter.name]==
+                                        element.id %} selected{% endif %}
+                                        value="{{ element.id }}">{% if element.level is defined %}{% for i in range(1, element.level) %}-{% endfor %}{% endif %}{{ element.name }}
+                                </option>
+                                {% endif %}
+
+                                {% endfor %}
+                            </select>
+                            {% elseif config.type is defined and config.type == 'checkbox' %}
+                            {% if filter.name is iterable %}
+                            {% for element in filter.name %}
+                            {% set elementConfig = config[element] %}
+                            <input name="{{ element }}" id="{{ element }}"
+                                   value="{{ elementConfig.default }}"
+                                   {% if resultFilter[element] is defined %} checked{% endif %}
+                                   type="checkbox"/>
+                            {% endfor %}
+                            {% else %}
+                            <input name="{{ filter.name }}" id="{{ filter.name }}"
+                                   value="{{ config.default }}"
+                                   {% if resultFilter[filter.name] is defined %} checked{% endif %}
+                                   type="checkbox"/>
+                            {% endif %}
+                            {% else %}
+                            {% if filter.name is iterable %}
+                            {% for element in filter.name %}
+                            {% set elementConfig = config[element] %}
+                            {% if elementConfig.label is defined %}
+                            <label
+                                    class="form_label"
+                                    for="{{ element }}">{{ elementConfig.label }}</label>
+                            {% endif %}
+                            <input name="{{ element }}"
+                                   id="{{ element }}"
+                                   placeholder="{% if elementConfig.placeholder is defined %}{{ elementConfig.placeholder }}{% endif %}"
+                                   value="{% if resultFilter[element] is defined %}{{ resultFilter[element] }}{% endif %}"
+                                   class="small-text" type="text"/>
+                            {% endfor %}
+                            {% else %}
+                            <input name="{{ filter.name }}"
+                                   id="{{ filter.name }}"
+                                   placeholder="{% if config.placeholder is defined %}{{ config.placeholder }}{% endif %}"
+                                   value="{% if resultFilter[filter.name] is defined %}{{ resultFilter[filter.name] }}{% endif %}"
+                                   class="regular-text" type="text"/>
+                            {% endif %}
+                            {% endif %}
+                            {% if config.description is defined %}
+                            <span class="description">{{ config.description }}</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% if config.dop_row is defined %}
+                    <tr>
+                        <td colspan="2">
+                            {{ config.dop_row }}
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="separator"></div>
+            <div class="text_content">
+                <h2>Link to category</h2>
+
+                <table class="settings_table">
+                    <tbody>
+
+                    <tr>
+                        <td><label for="category_id">Category:</label></td>
+                        <td>
+                            <select id="link_category_id" name="link_category_id" class="category_list"
+                                    style="width:25em;" required>
+                                <option value=""></option>
+                                {% for category in categories %}
+                                <option value="{{ category.term_id }}"
+                                        {% if resultFilter.link_category_id is defined and
+                                        resultFilter.link_category_id== category.term_id %} selected{% endif %}
+                                >
+                                    {% for i in range(1, category.level) %}-{% endfor %}
+                                    {{ category.name }}
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="separator"></div>
+            <div class="text_content btn_container">
+                <input type="button" id="{{ prefix }}-do-filter" onclick="affiliateBeforeSearch()"
+                       class="button button-primary" value="Search"/>
+            </div>
+        </form>
+    </div>
+    <div class="tab_content" rel="results">
+        <div class="separator"></div>
+        <div class="text_content">
+            <h2>Products list</h2>
+        </div>
+        <div class="before_list">
+
+        </div>
+        <div id="{{ prefix }}-goods-table" class="{{ prefix }}-goods-table">
+            <div class='import_process_loader'></div>
+            {{ result.display() }}
+            <div class="separator"></div>
+        </div>
+    </div>
+    <div class="tab_content" rel="blacklist">
+        {{ blacklist.display() }}
+    </div>
+</div>
+
+<div id="upload_image_dlg" style="display: none">
+    <div>
+        <form id="image_upload_form" method="post" action="#" enctype="multipart/form-data">
+            <input type='hidden' value='{{ nonce }}' name='_nonce'/>
+            <input type="hidden" name="upload_product_id" id="upload_product_id" value=""/>
+            <input type="hidden" name="action" id="action" value="{{ prefix }}_upload_image"/>
+            <input type="file" name="upload_image" id="upload_image"/>
+            <br/><br/>
+            <input id="submit-ajax" name="submit-ajax" type="submit" value="Upload this Image"
+                   class="button button-primary"/> <span id="upload_progress"></span>
+        </form>
+    </div>
+</div>
+
+<div id="edit_desc_dlg" style="display: none"></div>
+
+<script type="text/javascript">
+    var classPrefix;
+    jQuery(document).ready(function () {
+        DnolbonColumns.init('dashboard');
+
+        classPrefix = '{{ prefix }}';
+
+        jQuery("#search-form #current-page-selector").keypress(function (e) {
+            if (e.which == 13) {
+                jQuery(this).closest('form').submit();
+            }
+        });
+
+        jQuery("#affiliate_container").on("click", ".select_image", function () {
+            return true;
+        });
+
+        jQuery("body").on("click", ".affiliate_select_image img", function () {
+            var id = jQuery(this).parent().parent().find('.item_id').val();
+            var new_image = jQuery(this).attr('src');
+
+            jQuery(this).parent().parent().find("img.sel").removeClass("sel");
+            jQuery(this).addClass("sel");
+
+            jQuery("#affiliate_container").find('tr').each(function () {
+                var row_id = jQuery(this).attr('id');
+                if (row_id === id) {
+                    jQuery(this).find('.column-image img').attr('src', new_image);
+                }
+            });
+
+
+            var data = {'action': 'affiliate_select_image', 'id': id, 'image': new_image};
+
+            jQuery.post(ajaxurl, data, function (response) {
+            });
+            return false;
+        });
+
+        jQuery("#affiliate_container").on("click", ".post_import", function () {
+
+        });
+
+        jQuery("#affiliate_container").on("click", "#doaction,#doaction2", function () {
+            var check_action = (jQuery(this).attr('id') == 'doaction') ? jQuery('#bulk-action-selector-top').val() : jQuery('#bulk-action-selector-bottom').val();
+
+            jQuery("#affiliate_container .import_process_loader").html("");
+            if (check_action == 'import' || check_action == 'import_draft') {
+                affiliatePostItems();
+            } else if (check_action == 'blacklist') {
+                affiliateBlacklistItem();
+            }
+
+            return false;
+        });
+
+        jQuery("div[rel='blacklist']").on("click", "#doaction,#doaction2", function () {
+            var check_action = (jQuery(this).attr('id') == 'doaction') ? jQuery('div[rel=\'blacklist\'] #bulk-action-selector-top').val() : jQuery('div[rel=\'blacklist\'] #bulk-action-selector-bottom').val();
+
+            if (check_action == 'unblacklist') {
+                affiliateUnblacklist();
+            }
+        });
+
+        jQuery("#shedule_goods").on("click", "#doaction,#doaction2", function () {
+            var check_action = (jQuery(this).attr('id') == 'doaction') ? jQuery('#bulk-action-selector-top').val() : jQuery('#bulk-action-selector-bottom').val();
+
+            console.log('check_action ' + check_action);
+
+            if (check_action == 'unshedule') {
+                var num_to_import = jQuery("#shedule_goods input.gi_ckb:checked").length;
+                jQuery("#shedule_goods .import_process_loader").html("Process blacklist 0 of " + num_to_import + ".");
+                var import_cnt = 0;
+                var import_error_cnt = 0;
+                var import_cnt_total = 0;
+
+                jQuery("#shedule_goods input.gi_ckb:checked").each(function () {
+                    var id = jQuery(this).val();
+                    var curr_row = jQuery(this).parents("tr");
+                    var block = jQuery(this).parents("tr").find('.row-actions .import');
+
+                    var data = {
+                        'action': classPrefix + '_unshedule',
+                        'id': id
+                    };
+                    jQuery.post(ajaxurl, data, function (response) {
+                        //console.log('response: ', response);
+                        var json = jQuery.parseJSON(response);
+
+                        if (json.state === 'error') {
+                            jQuery(block).html('<i>Shedule error</i> | ');
+                            console.log(json);
+                            import_error_cnt++;
+                        } else {
+                            jQuery(curr_row).remove();
+                            import_cnt++;
+                        }
+                        import_cnt_total++;
+                        jQuery("#shedule_goods .import_process_loader").html("Process unshedule " + import_cnt + " of " + num_to_import + ". Errors: " + import_error_cnt + ".");
+
+                        if (import_cnt_total == num_to_import) {
+                            jQuery("#shedule_goods .import_process_loader").html("Complete! Result unsheduled: " + import_cnt + "; errors: " + import_error_cnt + ".");
+                        }
+                    });
+                });
+            }
+        });
+
+        jQuery(".schedule_post_date").datetimepicker({
+            format: 'm/d/Y H:i',
+            step: 10,
+            onSelectTime: function (dateText, input) {
+                var id = jQuery(input).parents("tr").attr('id');
+                var block = jQuery(input).parent();
+
+                jQuery(block).html("<i>Process...</i>");
+
+                var data = {'action': classPrefix + '_schedule_import_goods', 'id': id, 'time': jQuery(input).val()};
+
+                jQuery.post(ajaxurl, data, function (response) {
+                    var json = jQuery.parseJSON(response);
+                    if (json.state == 'error') {
+                        jQuery(block).html("<i>Schedule post error</i>");
+                    } else {
+                        jQuery(block).html("<i>Will be post on " + json.time + "</i>");
+                    }
+                });
+
+
+            }
+        });
+
+        jQuery(".upload_image").click(function () {
+            jQuery("#upload_product_id").val(jQuery(this).parents('tr').attr('id'));
+            return true;
+        });
+
+        if (!!jQuery.prototype.ajaxForm) {
+            var options = {target: '', beforeSubmit: showRequest, success: showResponse, url: ajaxurl};
+            jQuery('#image_upload_form').ajaxForm(options);
+        } else {
+            console.log('Warnign! ajaxForm is not suported by your theme');
+        }
+
+        jQuery("#image_upload_form").on("change", "#upload_image", function () {
+            jQuery("#image_upload_form").find('#upload_progress').html('');
+        });
+    });
+</script>

@@ -1,0 +1,675 @@
+/** **/
+.affiliate-reports .report_data {
+    float: left;
+    margin-right: 50px;
+}
+
+.affiliate-reports .title {
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.report_data .fl-left {
+    float: left;
+}
+
+.affiliate-reports .report_number {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    width: 50px;
+    padding: 10px;
+}
+
+.affiliate-reports .report_title {
+    padding: 10px;
+}
+
+.product_block {
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.product_block span {
+    float: left;
+}
+
+.product_block img {
+    width: 90px;
+    height: 90px;
+    margin: 0px 5px;
+    border: 1px solid #eee;
+    padding: 3px;
+}
+
+.product_block .number {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.product_block .number.yellow {
+    background: #ffbe00;
+    border: 1px #ffbe00 solid;
+}
+
+.product_block .number.silver {
+    background: #b1bcc2;
+    border: 1px #b1bcc2 solid;
+}
+
+.product_block .number.orange {
+    background: #ff751c;
+    border: 1px #ff751c solid;
+}
+
+.product_block .number.pink {
+    background: #5a136e;
+    border: 1px #5a136e solid;
+}
+
+.affiliate-reports .import_process_loader {
+    font-weight: bold;
+}
+
+.affiliate-reports .wp-list-table {
+    min-width: 800px;
+}
+
+.affiliate-reports .wp-list-table .block_field {
+    margin-bottom: 5px;
+}
+
+.affiliate-reports .wp-list-table .column-image {
+    width: 120px;
+}
+
+.affiliate-reports .wp-list-table .column-image > a {
+    display: inline-block;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.affiliate-reports .wp-list-table .column-image img {
+    width: 100%;
+}
+
+.affiliate-reports .wp-list-table .column-title {
+}
+
+.affiliate-reports .wp-list-table .column-keywords {
+}
+
+.affiliate-reports .wp-list-table .column-ship_to_locations {
+    width: 180px;
+}
+
+.affiliate-reports .wp-list-table .column-info {
+}
+
+.affiliate-reports .wp-list-table .column-condition {
+    width: 120px;
+}
+
+.affiliate-reports .wp-list-table .column-price {
+    width: 120px;
+}
+
+.affiliate-reports .wp-list-table .column-commission {
+    width: 120px;
+}
+
+.affiliate-reports .wp-list-table .column-user_price {
+    width: 120px;
+}
+
+.affiliate-reports .wp-list-table .column-ship {
+    width: 155px;
+}
+
+.affiliate-reports .wp-list-table .column-commisionRate {
+    width: 155px;
+}
+
+.affiliate-reports .wp-list-table .column-curr {
+    width: 95px;
+}
+
+.affiliate-reports .wp-list-table .column-validTime {
+    width: 100px;
+}
+
+.affiliate-reports .wp-list-table .column-volume {
+    width: 90px;
+}
+
+.affiliate-reports .wp-list-table label.field_label {
+    vertical-align: top;
+    font-style: italic;
+    font-weight: bold;
+    width: auto;
+    min-width: 1px;
+}
+
+.affiliate-reports .wp-list-table .row-actions {
+    color: #aeaeae;
+}
+
+.affiliate_select_image {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+}
+
+.affiliate_select_image img {
+    width: 150px;
+}
+
+.affiliate_select_image img.sel {
+    border: 2px solid #777;
+}
+
+.link_to_source {
+    margin: 10px 0;
+    display: inline-block;
+    height: 18px;
+}
+
+.link_to_source img {
+    height: 18px;
+}
+
+.category_list, .countries_list {
+    width: 25em
+}
+
+.sitecode_list {
+    width: 14em
+}
+
+.category_list .level_1 {
+}
+
+.category_list .level_2 {
+    padding-left: 15px;
+}
+
+.category_list .level_3 {
+    padding-left: 30px;
+}
+
+.category_list .level_4 {
+    padding-left: 45px;
+}
+
+.category_list .level_5 {
+    padding-left: 60px;
+}
+
+.form-table .small-text {
+    width: 70px;
+}
+
+.row-actions span.id > a,
+.row-actions span.id > span > a,
+.row-actions span.load_more_detail > a,
+.row-actions span.load_more_detail > i,
+.row-actions span.import > a,
+.row-actions span.import > i,
+.row-actions span.schedule_import > a,
+.row-actions span.schedule_import > i {
+    position: relative;
+    padding-left: 20px;
+}
+
+.row-actions span.load_more_detail > i, .row-actions span.import > i, .row-actions span.schedule_import > i {
+    font-style: normal;
+}
+
+.row-actions span.id > a::before,
+.row-actions span.id > span > a::before,
+.row-actions span.load_more_detail > a::before,
+.row-actions span.load_more_detail > i::before,
+.row-actions span.import > a::before,
+.row-actions span.import > i::before,
+.row-actions span.schedule_import > a::before,
+.row-actions span.schedule_import > i::before {
+    font-family: "FontAwesome";
+    font-size: 14px;
+    position: absolute;
+    left: 2px;
+    top: -1px;
+}
+
+.row-actions span.id > a::before {
+    content: "\f13d";
+}
+
+.row-actions span.id > span > a::before {
+    content: "\f007";
+}
+
+.row-actions span.load_more_detail > a::before, .row-actions span.load_more_detail > i::before {
+    content: "\f0ed";
+    top: 0px;
+}
+
+.row-actions span.import > a::before, .row-actions span.import > i::before {
+    content: "\f00c";
+}
+
+.row-actions span.schedule_import > a::before, .row-actions span.schedule_import > i::before {
+    content: "\f274";
+}
+
+.wp-submenu a > span.promo {
+    color: #bb4444;
+}
+
+.wp-submenu a:hover > span.promo {
+    color: #00b9eb;
+}
+
+/*promo page*/
+.pl-wrapper {
+    padding-right: 11px;
+}
+
+.pl-wrapper h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 15px 4px 0;
+    line-height: 29px;
+}
+
+.pl-breadscrumbs {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.pl-breadscrumbs a {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.pl-triangle {
+    position: relative;
+    width: 10px;
+    display: inline-block
+}
+
+.pl-triangle:after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 7px;
+    background: url(../img/triangle.png) no-repeat 0 0;
+    bottom: 1px;
+}
+
+.pl-block {
+    margin: 0 0 15px;
+    border: 1px solid #ddd;
+    width: 297px;
+}
+
+.pl-header {
+    height: 63px;
+    width: 298px;
+}
+
+.pl-block a {
+    color: #444;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.pl-block a:hover {
+    background-color: #fff;
+}
+
+.pl-header a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pl-ebay {
+    background: url(../img/ebay.png) no-repeat 0 0;
+}
+
+.pl-walmart {
+    background: url(../img/walmart.png) no-repeat 0 0;
+}
+
+.pl-amazon {
+    background: url(../img/amazon.png) no-repeat 0 0;
+}
+
+.pl-envato {
+    background: url(../img/envato.png) no-repeat 0 0;
+}
+
+.pl-text {
+    padding: 0 40px 0 20px;
+    min-height: 157px;
+}
+
+.pl-logo {
+    width: 283px;
+    margin: 0 auto;
+}
+
+pre {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .pl-block {
+        float: left;
+        margin: 0 15px 15px 0;
+    }
+
+    .pl-logo {
+        text-align: right;
+        width: 100%
+    }
+
+    .pl-main {
+        margin: 20px 0 20px;
+    }
+
+    .pl-main:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .pl-block {
+        width: 285px;
+    }
+
+    .pl-header {
+        height: 60px;
+        width: 285px;
+        background-size: 100% 100%;
+    }
+
+    .pl-main {
+        margin: 20px 0 95px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .pl-main {
+        margin: 20px 0 250px;
+    }
+}
+
+#affiliate_price_formula_add_form [name="type"] {
+    min-width: 120px;
+    width: 100%;
+}
+
+#affiliate_price_formula_add_form [name="category"] {
+    min-width: 120px;
+    width: 100%;
+}
+
+#affiliate_price_formula_add_form .price_label {
+    width: 65px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#affiliate_price_formula_add_form .discount {
+    white-space: nowrap;
+}
+
+#affiliate_price_formula_add_form [name="min_price"],
+#affiliate_price_formula_add_form [name="max_price"],
+#affiliate_price_formula_add_form [name="value"] {
+    min-width: 78px;
+    width: 100%;
+}
+
+#affiliate_price_formula {
+}
+
+#affiliate_price_formula .price {
+    white-space: nowrap;
+}
+
+#affiliate_price_formula .column-pos {
+    width: 5%;
+}
+
+#affiliate_price_formula .column-module {
+    width: 15%;
+}
+
+#affiliate_price_formula .column-category {
+    width: 25%;
+}
+
+#affiliate_price_formula .column-price {
+    width: 20%;
+}
+
+#affiliate_price_formula .column-value {
+    width: 10%;
+}
+
+#affiliate_price_formula .column-discount {
+    width: 10%;
+}
+
+#affiliate_price_formula .column-action {
+    width: 15%
+}
+
+#affiliate_price_formula [name="type"] {
+    min-width: 50px;
+    width: 100%;
+}
+
+#affiliate_price_formula [name="pos"] {
+    min-width: 30px;
+    width: 100%;
+}
+
+#affiliate_price_formula [name="min_price"], #affiliate_price_formula [name="max_price"] {
+    width: 100%;
+}
+
+#affiliate_price_formula [name="sign"], #affiliate_price_formula [name="value"], #affiliate_price_formula [name="discount1"], #affiliate_price_formula [name="discount2"] {
+    width: 100%;
+}
+
+#affiliate_price_formula [name="category"] {
+    min-width: 120px;
+    width: 100%;
+}
+
+#affiliate_price_formula .action {
+    white-space: nowrap;
+}
+
+/** **/
+
+.dnlb_toolbar {
+    height: 115px;
+    background-color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 46px;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dnlb_menu {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dnlb_menu li {
+    float: left;
+    width: 90px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+}
+
+.dnlb_menu li.right {
+    float: right;
+    margin-right: 0px;
+}
+
+.dnlb_menu span {
+    display: block;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.dnlb_menu a {
+    text-decoration: none;
+}
+
+.dnlb_menu a.active span, .dnlb_menu a.active_page span {
+    color: red;
+}
+
+.dnlb_menu li img {
+    display: inline-block;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+.wrap h2.nav-tab-wrapper {
+    background-color: #EBF0F1;
+    padding-top: 0px;
+    margin-top: 20px;
+    border-bottom: 0px solid #eee;
+}
+
+.nav-tab {
+    background-color: #EBF0F1;
+    height: 30px;
+    padding-top: 10px;
+    margin-right: .5em;
+    margin-left: 0px;
+    border: 1px solid #eee;
+}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tab_content .text_content {
+    padding: 0px 40px;
+}
+
+.tab_content {
+    background-color: #fff;
+    padding: 40px 0px;
+
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.tab_content .separator {
+    height: 1px;
+    background-color: #eee;
+}
+
+.tab_content input[type=text] {
+    width: 300px;
+    background-color: #EBF0F1;
+    height: 30px;
+    border: 1px solid #eee;
+}
+
+.tab_content input.small, .tab_content input.small-text, .tab_content input.current-page {
+    width: 50px;
+}
+
+.tab_content table.settings_table {
+    margin: 20px 0px;
+}
+
+.tab_content table.settings_table td {
+    padding: 10px;
+}
+
+.tab_content table label {
+    min-width: 150px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tab_content table label.form_label {
+    min-width: 50px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.tab_content a.btn {
+    background-color: #0099DE;
+    color: #fff;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+
+.btn_container {
+    margin-top: 20px;
+}
+
+.wwcAliAff-message.wwcAliAff-success {
+    background-color: #e1f1c0;
+    border-color: #b5d56d;
+    color: #62a426;
+}
+
+.wwcAliAff-message {
+    font-size: 12px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 15px 8px 15px 45px;
+    position: relative;
+    vertical-align: middle;
+    cursor: default;
+    background-color: #f8f8f8;
+    background-position: 12px 12px;
+    background-repeat: no-repeat;
+}
+
+.wwcAliAff-message.wwcAliAff-error {
+    background-color: #ffcbca;
+    border-color: #eb979b;
+    color: #9b4449
+}
+
+.notice-error, div.error {
+    background-color: #9EE3F8;
+    border-right: 4px solid #fff;
+    margin: 10px 20px 10px 0px;
+}
+
+.affiliate-goods-table td.image img, .wp-list-table td.image img {
+    width: 100%;
+    max-width: 150px;
+}

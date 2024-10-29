@@ -1,0 +1,49 @@
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" name="affiliate_settings" value="1"/
+    <div class="text_content">
+        <h3>Common setting</h3>
+        <table class="form-table">
+            <tr valign="top">
+                <th scope="row" class="titledesc">
+                    <label for="aidn_amazon_default_site">Default site: </label>
+                </th>
+                <td class="forminp forminp-select">
+                    <select name="options[aidn_amazon_default_site]" id="aidn_amazon_default_site">
+                        <option value="com"{% if defaultSite == 'com' }}selected="selected"{% endif %}
+                        >com</option>
+                        <option value="de"
+                        {% if defaultSite == 'de' }}selected="selected"{% endif %}
+                        >de</option>
+                        <option value="co.uk"
+                        {% if defaultSite == 'co.uk' }}selected="selected"{% endif %}
+                        >co.uk</option>
+                        <option value="ca"
+                        {% if defaultSite == 'ca' }}selected="selected"{% endif %}
+                        >ca</option>
+                        <option value="fr"
+                        {% if defaultSite == 'fr' }}selected="selected"{% endif %}
+                        >fr</option>
+                        <option value="co.jp"
+                        {% if defaultSite == 'co.jp' }}selected="selected"{% endif %}
+                        >co.jp</option>
+                        <option value="it"
+                        {% if defaultSite == 'it' }}selected="selected"{% endif %}
+                        >it</option>
+                        <option value="cn"
+                        {% if defaultSite == 'cn' }}selected="selected"{% endif %}
+                        >cn</option>
+                        <option value="es"
+                        {% if defaultSite == 'es' }}selected="selected"{% endif %}
+                        >es</option>
+                        <option value="in"
+                        {% if defaultSite == 'in' }}selected="selected"{% endif %}
+                        >in</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="text_content">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>

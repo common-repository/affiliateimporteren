@@ -1,0 +1,89 @@
+<form method="POST">
+    <input type="hidden" name="affiliate_settings" value="1"/>
+    <div class="separator"></div>
+    <div class="text_content">
+        <table class="settings_table">
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="{{ prefix }}_tr_aliexpress_language">Language</label>
+                </td>
+                <td class="forminp forminp-select">
+                    <select name="options[{{ prefix }}_tr_aliexpress_language]" id="{{ prefix }}_tr_aliexpress_language">
+                        <option value="en" 
+                         {% if language == 'en' %}selected="selected"{% endif %}>
+                        English
+                        </option>
+                        <option value="ar"
+                         {% if language == 'ar' %}selected="selected"{% endif %}>
+                        Arabic
+                        </option>
+                        <option value="de"
+                         {% if language == 'de' %}selected="selected"{% endif %}>
+                        German
+                        </option>
+                        <option value="es"
+                         {% if language == 'es' %}selected="selected"{% endif %}>
+                        Spanish
+                        </option>
+                        <option value="fr"
+                         {% if language == 'fr' %}selected="selected"{% endif %}>
+                        French
+                        </option>
+                        <option value="it"
+                         {% if language == 'it' %}selected="selected"{% endif %}>
+                        Italian
+                        </option>
+                        <option value="pl"
+                         {% if language == 'pl' %}selected="selected"{% endif %}>
+                        Polish
+                        </option>
+                        <option value="ja"
+                         {% if language == 'ja' %}selected="selected"{% endif %}>
+                        Japanese
+                        </option>
+                        <option value="ko"
+                         {% if language == 'ko' %}selected="selected"{% endif %}>
+                        Korean
+                        </option>
+                        <option value="nl"
+                         {% if language == 'nl' %}selected="selected"{% endif %}>
+                        Notherlandish (Dutch)
+                        </option>
+                        <option value="pt"
+                         {% if language == 'pt' %}selected="selected"{% endif %}>
+                        Portuguese (Brasil)
+                        </option>
+                        <option value="ru"
+                         {% if language == 'ru' %}selected="selected"{% endif %}>
+                        Russian
+                        </option>
+                        <option value="th"
+                         {% if language == 'th' %}selected="selected"{% endif %}>
+                        Thai
+                        </option>
+                        <option value="id"
+                         {% if language == 'id' %}selected="selected"{% endif %}>
+                        Indonesian
+                        </option>
+                        <option value="tr"
+                         {% if language == 'tr' %}selected="selected"{% endif %}>
+                        Turkish
+                        </option>
+                        <option value="vi" 
+                         {% if language == 'vi' %}selected="selected"{% endif %}>
+                        Vietnamese
+                        </option>
+                        <option value="he" 
+                         {% if language == 'he' %}selected="selected"{% endif %}>
+                        Hebrew
+                        </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="separator"></div>
+    <div class="text_content btn_container">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>

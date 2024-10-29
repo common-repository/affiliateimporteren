@@ -1,0 +1,140 @@
+<div class="separator"></div>
+
+<form method="post">
+    <input type="hidden" name="affiliate_settings" value="1"/>
+
+    <div class="text_content">
+        <h3>Common setting</h3>
+        <table class="settings_table">
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ prefix }}_currency_conversion_factor">Currency
+                    conversion factor</label>
+                </td>
+                <td class="forminp forminp-text"><input type="text" id="{{ prefix }}_currency_conversion_factor"
+                                                        name="options[{{ prefix }}_currency_conversion_factor]"
+                                                        value="{{ conversionFactor }}"/>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="{{ prefix }}_default_type">Default Product Type</label>
+                </td>
+                <td class="forminp forminp-select">
+                    <select name="options[{{ prefix }}_default_type]" id="{{ prefix }}_default_type">
+                        <option value="simple"
+                        {% if defaultType == 'simple' %} selected="selected"{% endif %}>
+                        Simple Product
+                        </option>
+                        <option value="external"
+                                {% if defaultType == 'external' %} selected="selected"{% endif %}>
+                        External/Affiliate Product
+                        </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td scope="row" class="titledesc">
+                    <label for="{{ prefix }}_default_status">Default Product Status</label>
+                </td>
+                <td class="forminp forminp-select">
+                    <select name="{{ prefix }}_default_status" id="{{ prefix }}_default_status">
+                        <option value="publish"
+                                {% if defaultStatus == 'publish' %} selected="selected"{% endif %}>
+                        publish
+                        </option>
+                        <option value="draft"
+                                {% if defaultStatus == 'draft' %} selected="selected"{% endif %}>
+                        draft
+                        </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="separator"></div>
+    <div class="text_content">
+        <h3>Import setting</h3>
+        <table class="settings_table">
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ prefix }}_remove_link_from_desc">Remove links from
+                    description</label>
+                </th>
+                <td class="forminp forminp-text"><input type="checkbox" id="{{ prefix }}_remove_link_from_desc"
+                                                        name="options[{{ prefix }}_remove_link_from_desc]" value="yes"
+                    {% if removeLink %} checked{% endif %} />
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ prefix }}_remove_img_from_desc">Remove images from
+                    description</label>
+                </th>
+                <td class="forminp forminp-text"><input type="checkbox" id="{{ prefix }}_remove_img_from_desc"
+                                                        name="options[{{ prefix }}_remove_img_from_desc]" value="yes"
+                    {% if removeImg %} checked{% endif %}/>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ prefix }}_import_product_images_limit">Import
+                    product
+                    images limit</label>
+                </th>
+                <td class="forminp forminp-text"><input type="text" id="{{ prefix }}_import_product_images_limit"
+                                                        name="options[{{ prefix }}_import_product_images_limit]"
+                                                        value="{{ productImagesLimit }}"/>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ prefix }}_min_product_quantity">Default product
+                    quantity</label>
+                </th>
+                <td class="forminp forminp-text">
+                    from: <input type="text" style="width:60px" id="{{ prefix }}_min_product_quantity"
+                                 name="options[{{ prefix }}_min_product_quantity]"
+                                 value="{{ minProductQuantity }}"/>
+                    to: <input type="text" style="width:60px" id="{{ prefix }}_max_product_quantity"
+                               name="options[{{ prefix }}_max_product_quantity]"
+                               value="{{ maxProductQuantity }}"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="separator"></div>
+    <div class="text_content">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>
+<script>
+    (function ($) {
+
+
+        jQuery("#{{ prefix }}_price_auto_update").change(function () {
+            jQuery("#{{ prefix }}_price_auto_update_period").prop('disabled', !jQuery(this).is(':checked'));
+            jQuery("#{{ prefix }}_regular_price_auto_update").prop('disabled', !jQuery(this).is(':checked'));
+            jQuery("#{{ prefix }}_regular_price_auto_update").prop('checked', jQuery(this).is(':checked'));
+            jQuery("#{{ prefix }}_update_per_schedule").prop('disabled', !jQuery(this).is(':checked'));
+            jQuery("#{{ prefix }}_not_available_product_status").prop('disabled', !jQuery(this).is(':checked'));
+            return true;
+        });
+
+        jQuery("#{{ prefix }}_use_proxy").change(function () {
+            if (jQuery(this).is(':checked')) {
+                jQuery("#{{ prefix }}_proxies_list").closest('tr').show();
+            } else {
+                jQuery("#{{ prefix }}_proxies_list").closest('tr').hide();
+            }
+        });
+
+        $(".proxy_test").click(function () {
+            var data = {'action': '{{ prefix }}_proxy_test'};
+            $('#proxy_test_result').html('testing...');
+            $.post(ajaxurl, data, function (response) {
+                $('#proxy_test_result').html(response);
+            });
+            return false;
+        });
+    })(jQuery);
+
+
+</script>

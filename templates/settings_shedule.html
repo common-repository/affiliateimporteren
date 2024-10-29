@@ -1,0 +1,94 @@
+<form method="POST">
+    <input type="hidden" name="shedule_settings" value="1">
+    <div class="separator"></div>
+    <div class="text_content">
+        <table class="settings_table">
+            <tr valign="top">
+                <td><label for="{{ prefix }}_price_auto_update">Auto Update (stock avail. only)</label></td>
+                <td>
+                    <input type="checkbox" id="{{ prefix }}_price_auto_update" name="{{ prefix }}_price_auto_update"
+                           value="yes"
+                    {% if priceAutoUpdate %} checked {% endif %}
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td><label for="{{ prefix }}_regular_price_auto_update">Auto Update
+                    Price</label></td>
+                <td><input type="checkbox" id="{{ prefix }}_regular_price_auto_update"
+                           name="{{ prefix }}_regular_price_auto_update" value="yes"
+                           {% if priceAutoUpdate == false %} disabled {% endif %}
+                    {% if regularPriceAutoUpdate %} checked {% endif %}/>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td>
+                    <label for="{{ prefix }}_not_available_product_status">Not available product status</label>
+                </td>
+                <td class="forminp forminp-select">
+                    <select name="{{ prefix }}_not_available_product_status"
+                            id="{{ prefix }}_not_available_product_status"
+                            {% if priceAutoUpdate == false %} disabled {% endif %}>
+                    <option value="trash"
+                     {% if notAvailableStatus == 'trash' %}selected="selected"{% endif %}>
+                    Trash
+                    </option>
+                    <option value="outofstock"
+                     {% if notAvailableStatus == 'outofstock' %}selected="selected"{% endif %}>
+                    Out of stock
+                    </option>
+                    <option value="instock"
+                     {% if notAvailableStatus == 'instock' %}selected="selected"{% endif %}>
+                    In stock
+                    </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td>
+                    <label for="{{ prefix }}_price_auto_update_period">Update Schedule</label>
+                </td>
+                <td class="forminp forminp-select">
+                    
+                    <select name="{{ prefix }}_price_auto_update_period" id="{{ prefix }}_price_auto_update_period"
+                            {% if priceAutoUpdate == false %} disabled {% endif %}>
+                    <option value="5_mins"
+                    {% if priceUpdatePeriod == '5_mins' %}selected="selected"{% endif %}>
+                    Every 5 Minutes
+                    </option>
+                    <option value="15_mins"
+                    {% if priceUpdatePeriod == '15_mins' %}selected="selected"{% endif %}>
+                    Every 15 Minutes
+                    </option>
+                    <option value="hourly"
+                    {% if priceUpdatePeriod == 'hourly' %}selected="selected"{% endif %}>
+                    hourly
+                    </option>
+                    <option value="twicedaily"
+                    {% if priceUpdatePeriod == 'twicedaily' %}selected="selected"{% endif %}>
+                    twicedaily
+                    </option>
+                    <option value="daily"
+                    {% if priceUpdatePeriod == 'daily' %}selected="selected"{% endif %}>
+                    daily
+                    </option>
+                    </select>
+                </td>
+            </tr>
+
+            <td><label for="{{ prefix }}_update_per_schedule">The number of products
+                update per schedule</label></td>
+            <td><input type="text" id="{{ prefix }}_update_per_schedule"
+                       name="{{ prefix }}_update_per_schedule"
+                       value="{{ updatePerShedule }}"
+                       {% if priceAutoUpdate == false %} disabled {% endif %}/>
+            </td>
+        </table>
+    </div>
+    <div class="separator"></div>
+    <div class="text_content btn_container">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>

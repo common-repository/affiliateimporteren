@@ -1,0 +1,25 @@
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" name="affiliate_settings" value="1"/>
+
+    <div class="text_content">
+        <h3>{{ form.title }}</h3>
+
+        <table class="settings_table">
+            {% for field in form.fields%}
+            {% if field.type != 'hidden' %}
+            <tr valign="top">
+                <td scope="row" class="titledesc"><label for="{{ field.field }}">{{ field.title }}</label></td>
+                <td class="forminp forminp-text">
+                    <input type="text" id="{{ field.field }}" name="account[{{ field.field }}]"
+                           value="{% if data[field.field] is defined %}{{ data[field.field] }}{% endif %}"/>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="text_content">
+        <input class="button-primary" type="submit" value="Save settings"/><br/>
+    </div>
+</form>

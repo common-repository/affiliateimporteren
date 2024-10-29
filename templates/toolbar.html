@@ -1,0 +1,46 @@
+<div class="dnlb_toolbar">
+    <ul class="dnlb_menu">
+        {% for menuEl in menu %}
+            <li
+                    class="{% if menuEl.class is defined %}{{ menuEl.class }}{% endif %}"
+                    data-rel="{{ menuEl.link }}"
+            >
+                <a href="{{ menuEl.full_link }}" class="{{ menuEl.link_class}}"
+                   {% if menuEl.exteral_link is defined %} target="_blank" {% endif %}
+                >
+                    <img src="{{ imagePath }}/{{ menuEl.icon }}.png"/>
+                    <span>{{ menuEl.name }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <div style="clear: both;"></div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery(".dnlb_menu a").mouseover(function () {
+            setActivePage(this);
+        });
+
+        jQuery(".dnlb_menu a").mouseout(function () {
+            jQuery(".dnlb_menu a").removeClass('active');
+
+            jQuery('img', this).attr("src", jQuery('img', this).attr("data-normal"));
+        });
+
+        setActivePage(jQuery("*[data-rel='{{ activePage }}'] a"));
+    });
+
+    function setActivePage(object) {
+        jQuery(".dnlb_menu a").removeClass('active');
+        jQuery(object).addClass('active');
+
+        var attr = jQuery('img', object).attr('data-hover');
+
+        if (!(typeof attr !== typeof undefined && attr !== false)) {
+            jQuery('img', object).attr("data-hover", jQuery('img', object).attr("src").replace(/.png/, '_active.png'));
+        }
+        jQuery('img', object).attr("data-normal", jQuery('img', object).attr("src"));
+        jQuery('img', object).attr("src", jQuery('img', object).attr("data-hover"));
+    }
+</script>

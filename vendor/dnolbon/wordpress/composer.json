@@ -1,0 +1,23 @@
+{
+  "name": "dnolbon/wordpress",
+  "type": "library",
+  "description": "Wordpress helper",
+  "keywords": [
+    "currencies"
+  ],
+  "homepage": "https://github.com/dnolbon/Wordpress",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dnolbon",
+      "email": "support@dnolbon.com",
+      "homepage": "https://dnolbon.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dnolbon\\Wordpress\\": "src/Dnolbon/Wordpress"
+    }
+  }
+}

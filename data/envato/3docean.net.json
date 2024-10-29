@@ -1,0 +1,1064 @@
+{
+  "categories": [
+    {
+      "name": "Animation Data",
+      "path": "animation-data"
+    },
+    {
+      "name": "Dancing",
+      "path": "animation-data/dancing"
+    },
+    {
+      "name": "Environment Interaction",
+      "path": "animation-data/environment-interaction"
+    },
+    {
+      "name": "Fighting",
+      "path": "animation-data/fighting"
+    },
+    {
+      "name": "Human Interaction",
+      "path": "animation-data/human-interaction"
+    },
+    {
+      "name": "Locomotion",
+      "path": "animation-data/locomotion"
+    },
+    {
+      "name": "Climbing",
+      "path": "animation-data/locomotion/climbing"
+    },
+    {
+      "name": "Flying",
+      "path": "animation-data/locomotion/flying"
+    },
+    {
+      "name": "Running",
+      "path": "animation-data/locomotion/running"
+    },
+    {
+      "name": "Swimming",
+      "path": "animation-data/locomotion/swimming"
+    },
+    {
+      "name": "Walking",
+      "path": "animation-data/locomotion/walking"
+    },
+    {
+      "name": "Object Interaction",
+      "path": "animation-data/object-interaction"
+    },
+    {
+      "name": "Sports",
+      "path": "animation-data/sports"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "animation-data/miscellaneous"
+    },
+    {
+      "name": "3D Models",
+      "path": "3d-models"
+    },
+    {
+      "name": "Animals",
+      "path": "3d-models/animals"
+    },
+    {
+      "name": "Birds",
+      "path": "3d-models/animals/birds"
+    },
+    {
+      "name": "Fish",
+      "path": "3d-models/animals/fish"
+    },
+    {
+      "name": "Insects and Small Animals",
+      "path": "3d-models/animals/insects-and-small-animals"
+    },
+    {
+      "name": "Mammals",
+      "path": "3d-models/animals/mammals"
+    },
+    {
+      "name": "Reptiles and Amphibians",
+      "path": "3d-models/animals/reptiles-and-amphibians"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/animals/miscellaneous"
+    },
+    {
+      "name": "Anatomy",
+      "path": "3d-models/anatomy"
+    },
+    {
+      "name": "Animals",
+      "path": "3d-models/anatomy/animals"
+    },
+    {
+      "name": "Body Parts",
+      "path": "3d-models/anatomy/body-parts"
+    },
+    {
+      "name": "Muscle Structures",
+      "path": "3d-models/anatomy/muscle-structures"
+    },
+    {
+      "name": "Organs",
+      "path": "3d-models/anatomy/organs"
+    },
+    {
+      "name": "Skeletons",
+      "path": "3d-models/anatomy/skeletons"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/anatomy/miscellaneous"
+    },
+    {
+      "name": "Base Meshes",
+      "path": "3d-models/base-meshes"
+    },
+    {
+      "name": "Buildings and Architecture",
+      "path": "3d-models/buildings-and-architecture"
+    },
+    {
+      "name": "Buildings",
+      "path": "3d-models/buildings-and-architecture/buildings"
+    },
+    {
+      "name": "Infrastructure",
+      "path": "3d-models/buildings-and-architecture/infrastructure"
+    },
+    {
+      "name": "Interiors",
+      "path": "3d-models/buildings-and-architecture/interiors"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/buildings-and-architecture/miscellaneous"
+    },
+    {
+      "name": "Clothes & Accessories",
+      "path": "3d-models/clothes-accessories"
+    },
+    {
+      "name": "Bags",
+      "path": "3d-models/clothes-accessories/bags"
+    },
+    {
+      "name": "Belts",
+      "path": "3d-models/clothes-accessories/belts"
+    },
+    {
+      "name": "Clothes",
+      "path": "3d-models/clothes-accessories/clothes"
+    },
+    {
+      "name": "Hats",
+      "path": "3d-models/clothes-accessories/hats"
+    },
+    {
+      "name": "Jewelry",
+      "path": "3d-models/clothes-accessories/jewelry"
+    },
+    {
+      "name": "Shoes",
+      "path": "3d-models/clothes-accessories/shoes"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/clothes-accessories/miscellaneous"
+    },
+    {
+      "name": "Deco Objects",
+      "path": "3d-models/deco-objects"
+    },
+    {
+      "name": "Design Elements",
+      "path": "3d-models/design-elements"
+    },
+    {
+      "name": "Electronics",
+      "path": "3d-models/electronics"
+    },
+    {
+      "name": "Audio",
+      "path": "3d-models/electronics/audio"
+    },
+    {
+      "name": "Computers",
+      "path": "3d-models/electronics/computers"
+    },
+    {
+      "name": "Phone",
+      "path": "3d-models/electronics/phone"
+    },
+    {
+      "name": "Video",
+      "path": "3d-models/electronics/video"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/electronics/miscellaneous"
+    },
+    {
+      "name": "Engines and Parts",
+      "path": "3d-models/engines-and-parts"
+    },
+    {
+      "name": "Fantasy and Fiction",
+      "path": "3d-models/fantasy-and-fiction"
+    },
+    {
+      "name": "Aliens",
+      "path": "3d-models/fantasy-and-fiction/aliens"
+    },
+    {
+      "name": "Animals",
+      "path": "3d-models/fantasy-and-fiction/animals"
+    },
+    {
+      "name": "Architecture",
+      "path": "3d-models/fantasy-and-fiction/architecture"
+    },
+    {
+      "name": "Characters",
+      "path": "3d-models/fantasy-and-fiction/characters"
+    },
+    {
+      "name": "Gadgets",
+      "path": "3d-models/fantasy-and-fiction/gadgets"
+    },
+    {
+      "name": "Humanoids",
+      "path": "3d-models/fantasy-and-fiction/humanoids"
+    },
+    {
+      "name": "Monsters and Creatures",
+      "path": "3d-models/fantasy-and-fiction/monsters-and-creatures"
+    },
+    {
+      "name": "Plants",
+      "path": "3d-models/fantasy-and-fiction/plants"
+    },
+    {
+      "name": "Robots and Machines",
+      "path": "3d-models/fantasy-and-fiction/robots-and-machines"
+    },
+    {
+      "name": "Vehicles",
+      "path": "3d-models/fantasy-and-fiction/vehicles"
+    },
+    {
+      "name": "Weapons",
+      "path": "3d-models/fantasy-and-fiction/weapons"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/fantasy-and-fiction/miscellaneous"
+    },
+    {
+      "name": "Food and Drinks",
+      "path": "3d-models/food-and-drinks"
+    },
+    {
+      "name": "Furnishings",
+      "path": "3d-models/furnishings"
+    },
+    {
+      "name": "Appliances",
+      "path": "3d-models/furnishings/appliances"
+    },
+    {
+      "name": "Furniture",
+      "path": "3d-models/furnishings/furniture"
+    },
+    {
+      "name": "Lamps",
+      "path": "3d-models/furnishings/lamps"
+    },
+    {
+      "name": "Sanitation",
+      "path": "3d-models/furnishings/sanitation"
+    },
+    {
+      "name": "Seating",
+      "path": "3d-models/furnishings/seating"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/furnishings/miscellaneous"
+    },
+    {
+      "name": "Humans",
+      "path": "3d-models/humans"
+    },
+    {
+      "name": "Female",
+      "path": "3d-models/humans/female"
+    },
+    {
+      "name": "Babies and Children",
+      "path": "3d-models/humans/female/babies-and-children"
+    },
+    {
+      "name": "Teens and Adults",
+      "path": "3d-models/humans/female/teens-and-adults"
+    },
+    {
+      "name": "Seniors",
+      "path": "3d-models/humans/female/seniors"
+    },
+    {
+      "name": "Male",
+      "path": "3d-models/humans/male"
+    },
+    {
+      "name": "Babies and Children",
+      "path": "3d-models/humans/male/babies-and-children"
+    },
+    {
+      "name": "Teens and Adults",
+      "path": "3d-models/humans/male/teens-and-adults"
+    },
+    {
+      "name": "Seniors",
+      "path": "3d-models/humans/male/seniors"
+    },
+    {
+      "name": "Music",
+      "path": "3d-models/music"
+    },
+    {
+      "name": "Equipment",
+      "path": "3d-models/music/equipment"
+    },
+    {
+      "name": "Instruments",
+      "path": "3d-models/music/instruments"
+    },
+    {
+      "name": "Electronic",
+      "path": "3d-models/music/instruments/electronic"
+    },
+    {
+      "name": "Keyboard Instruments",
+      "path": "3d-models/music/instruments/keyboard-instruments"
+    },
+    {
+      "name": "Percussion",
+      "path": "3d-models/music/instruments/percussion"
+    },
+    {
+      "name": "Strings",
+      "path": "3d-models/music/instruments/strings"
+    },
+    {
+      "name": "Wind",
+      "path": "3d-models/music/instruments/wind"
+    },
+    {
+      "name": "Nature",
+      "path": "3d-models/nature"
+    },
+    {
+      "name": "Fruits & Vegetables",
+      "path": "3d-models/nature/fruits-vegetables"
+    },
+    {
+      "name": "Flowers",
+      "path": "3d-models/nature/flowers"
+    },
+    {
+      "name": "Pot Plants",
+      "path": "3d-models/nature/pot-plants"
+    },
+    {
+      "name": "Shrubs & Grass",
+      "path": "3d-models/nature/shrubs-grass"
+    },
+    {
+      "name": "Trees",
+      "path": "3d-models/nature/trees"
+    },
+    {
+      "name": "Vines",
+      "path": "3d-models/nature/vines"
+    },
+    {
+      "name": "Water Plants",
+      "path": "3d-models/nature/water-plants"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/nature/miscellaneous"
+    },
+    {
+      "name": "Rocks",
+      "path": "3d-models/nature/rocks"
+    },
+    {
+      "name": "Products",
+      "path": "3d-models/products"
+    },
+    {
+      "name": "Science",
+      "path": "3d-models/science"
+    },
+    {
+      "name": "Chemistry",
+      "path": "3d-models/science/chemistry"
+    },
+    {
+      "name": "Physics",
+      "path": "3d-models/science/physics"
+    },
+    {
+      "name": "Medical",
+      "path": "3d-models/science/medical"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/science/miscellaneous"
+    },
+    {
+      "name": "Sports",
+      "path": "3d-models/sports"
+    },
+    {
+      "name": "Athletic",
+      "path": "3d-models/sports/athletic"
+    },
+    {
+      "name": "Court",
+      "path": "3d-models/sports/court"
+    },
+    {
+      "name": "Extreme",
+      "path": "3d-models/sports/extreme"
+    },
+    {
+      "name": "Field",
+      "path": "3d-models/sports/field"
+    },
+    {
+      "name": "Gymnastic",
+      "path": "3d-models/sports/gymnastic"
+    },
+    {
+      "name": "Motor",
+      "path": "3d-models/sports/motor"
+    },
+    {
+      "name": "Water",
+      "path": "3d-models/sports/water"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/sports/miscellaneous"
+    },
+    {
+      "name": "Tools",
+      "path": "3d-models/tools"
+    },
+    {
+      "name": "Toys and Games",
+      "path": "3d-models/toys-and-games"
+    },
+    {
+      "name": "Theme Packages",
+      "path": "3d-models/theme-packages"
+    },
+    {
+      "name": "Vehicles",
+      "path": "3d-models/vehicles"
+    },
+    {
+      "name": "Air",
+      "path": "3d-models/vehicles/air"
+    },
+    {
+      "name": "Commercial",
+      "path": "3d-models/vehicles/air/commercial"
+    },
+    {
+      "name": "Private",
+      "path": "3d-models/vehicles/air/private"
+    },
+    {
+      "name": "Military",
+      "path": "3d-models/vehicles/air/military"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/vehicles/air/miscellaneous"
+    },
+    {
+      "name": "Land",
+      "path": "3d-models/vehicles/land"
+    },
+    {
+      "name": "Bicycles",
+      "path": "3d-models/vehicles/land/bicycles"
+    },
+    {
+      "name": "Cars",
+      "path": "3d-models/vehicles/land/cars"
+    },
+    {
+      "name": "Heavy Vehicles",
+      "path": "3d-models/vehicles/land/heavy-vehicles"
+    },
+    {
+      "name": "Motorcycles",
+      "path": "3d-models/vehicles/land/motorcycles"
+    },
+    {
+      "name": "Military",
+      "path": "3d-models/vehicles/land/military"
+    },
+    {
+      "name": "Trains",
+      "path": "3d-models/vehicles/land/trains"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/vehicles/land/miscellaneous"
+    },
+    {
+      "name": "Water",
+      "path": "3d-models/vehicles/water"
+    },
+    {
+      "name": "Industrial",
+      "path": "3d-models/vehicles/water/industrial"
+    },
+    {
+      "name": "Military",
+      "path": "3d-models/vehicles/water/military"
+    },
+    {
+      "name": "Private",
+      "path": "3d-models/vehicles/water/private"
+    },
+    {
+      "name": "Recreational",
+      "path": "3d-models/vehicles/water/recreational"
+    },
+    {
+      "name": "Transport",
+      "path": "3d-models/vehicles/water/transport"
+    },
+    {
+      "name": "Underwater",
+      "path": "3d-models/vehicles/water/underwater"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/vehicles/water/miscellaneous"
+    },
+    {
+      "name": "Space",
+      "path": "3d-models/vehicles/space"
+    },
+    {
+      "name": "Weapons and Armor",
+      "path": "3d-models/weapons-and-armor"
+    },
+    {
+      "name": "Armors",
+      "path": "3d-models/weapons-and-armor/armors"
+    },
+    {
+      "name": "Distance",
+      "path": "3d-models/weapons-and-armor/distance"
+    },
+    {
+      "name": "Explosives",
+      "path": "3d-models/weapons-and-armor/explosives"
+    },
+    {
+      "name": "Melee",
+      "path": "3d-models/weapons-and-armor/melee"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "3d-models/miscellaneous"
+    },
+    {
+      "name": "Render Setups",
+      "path": "render-setups"
+    },
+    {
+      "name": "Materials And Shaders",
+      "path": "materials-and-shaders"
+    },
+    {
+      "name": "Ceramic",
+      "path": "materials-and-shaders/ceramic"
+    },
+    {
+      "name": "Fabric",
+      "path": "materials-and-shaders/fabric"
+    },
+    {
+      "name": "Glass",
+      "path": "materials-and-shaders/glass"
+    },
+    {
+      "name": "Glow",
+      "path": "materials-and-shaders/glow"
+    },
+    {
+      "name": "Marble",
+      "path": "materials-and-shaders/marble"
+    },
+    {
+      "name": "Metal",
+      "path": "materials-and-shaders/metal"
+    },
+    {
+      "name": "Organic",
+      "path": "materials-and-shaders/organic"
+    },
+    {
+      "name": "Plastic",
+      "path": "materials-and-shaders/plastic"
+    },
+    {
+      "name": "Sci-fi",
+      "path": "materials-and-shaders/sci-fi"
+    },
+    {
+      "name": "Stone",
+      "path": "materials-and-shaders/stone"
+    },
+    {
+      "name": "Water",
+      "path": "materials-and-shaders/water"
+    },
+    {
+      "name": "Wood",
+      "path": "materials-and-shaders/wood"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "materials-and-shaders/miscellaneous"
+    },
+    {
+      "name": "CG Textures",
+      "path": "cg-textures"
+    },
+    {
+      "name": "Bones",
+      "path": "cg-textures/bones"
+    },
+    {
+      "name": "Buildings",
+      "path": "cg-textures/buildings"
+    },
+    {
+      "name": "Historic",
+      "path": "cg-textures/buildings/historic"
+    },
+    {
+      "name": "Industrial",
+      "path": "cg-textures/buildings/industrial"
+    },
+    {
+      "name": "Modern",
+      "path": "cg-textures/buildings/modern"
+    },
+    {
+      "name": "Old",
+      "path": "cg-textures/buildings/old"
+    },
+    {
+      "name": "Ruins",
+      "path": "cg-textures/buildings/ruins"
+    },
+    {
+      "name": "Traditional",
+      "path": "cg-textures/buildings/traditional"
+    },
+    {
+      "name": "Wood",
+      "path": "cg-textures/buildings/wood"
+    },
+    {
+      "name": "Concrete",
+      "path": "cg-textures/concrete"
+    },
+    {
+      "name": "Bare",
+      "path": "cg-textures/concrete/bare"
+    },
+    {
+      "name": "Bunker Walls",
+      "path": "cg-textures/concrete/bunker-walls"
+    },
+    {
+      "name": "Doors",
+      "path": "cg-textures/doors"
+    },
+    {
+      "name": "Fabric",
+      "path": "cg-textures/fabric"
+    },
+    {
+      "name": "Folds",
+      "path": "cg-textures/fabric/folds"
+    },
+    {
+      "name": "Fauna",
+      "path": "cg-textures/fauna"
+    },
+    {
+      "name": "Feathers",
+      "path": "cg-textures/fauna/feathers"
+    },
+    {
+      "name": "Fur",
+      "path": "cg-textures/fauna/fur"
+    },
+    {
+      "name": "Leather",
+      "path": "cg-textures/fauna/leather"
+    },
+    {
+      "name": "Scales",
+      "path": "cg-textures/fauna/scales"
+    },
+    {
+      "name": "Flora",
+      "path": "cg-textures/flora"
+    },
+    {
+      "name": "Ground",
+      "path": "cg-textures/ground"
+    },
+    {
+      "name": "Dirt",
+      "path": "cg-textures/ground/dirt"
+    },
+    {
+      "name": "Leaves",
+      "path": "cg-textures/ground/leaves"
+    },
+    {
+      "name": "Mud",
+      "path": "cg-textures/ground/mud"
+    },
+    {
+      "name": "Pebbles",
+      "path": "cg-textures/ground/pebbles"
+    },
+    {
+      "name": "Sand",
+      "path": "cg-textures/ground/sand"
+    },
+    {
+      "name": "Snow",
+      "path": "cg-textures/ground/snow"
+    },
+    {
+      "name": "HDRI Images",
+      "path": "cg-textures/hdri-images"
+    },
+    {
+      "name": "Interior",
+      "path": "cg-textures/hdri-images/interior"
+    },
+    {
+      "name": "Exterior",
+      "path": "cg-textures/hdri-images/exterior"
+    },
+    {
+      "name": "Sky",
+      "path": "cg-textures/hdri-images/exterior/sky"
+    },
+    {
+      "name": "Daylight",
+      "path": "cg-textures/hdri-images/exterior/sky/daylight"
+    },
+    {
+      "name": "Low Light",
+      "path": "cg-textures/hdri-images/exterior/sky/low-light"
+    },
+    {
+      "name": "Sky Packs",
+      "path": "cg-textures/hdri-images/exterior/sky/sky-packs"
+    },
+    {
+      "name": "Blue Clear",
+      "path": "cg-textures/hdri-images/exterior/sky/blue-clear"
+    },
+    {
+      "name": "Blue Cloudy",
+      "path": "cg-textures/hdri-images/exterior/sky/blue-cloudy"
+    },
+    {
+      "name": "Overcast",
+      "path": "cg-textures/hdri-images/exterior/sky/overcast"
+    },
+    {
+      "name": "Dawn & Dusk",
+      "path": "cg-textures/hdri-images/exterior/sky/dawn-dusk"
+    },
+    {
+      "name": "Sunrise & Sunset",
+      "path": "cg-textures/hdri-images/exterior/sky/sunrise-sunset"
+    },
+    {
+      "name": "Landscapes",
+      "path": "cg-textures/hdri-images/exterior/landscapes"
+    },
+    {
+      "name": "Urban",
+      "path": "cg-textures/hdri-images/exterior/urban"
+    },
+    {
+      "name": "Humans",
+      "path": "cg-textures/humans"
+    },
+    {
+      "name": "Hair",
+      "path": "cg-textures/humans/hair"
+    },
+    {
+      "name": "Skin",
+      "path": "cg-textures/humans/skin"
+    },
+    {
+      "name": "Ice",
+      "path": "cg-textures/ice"
+    },
+    {
+      "name": "Metal",
+      "path": "cg-textures/metal"
+    },
+    {
+      "name": "Bare",
+      "path": "cg-textures/metal/bare"
+    },
+    {
+      "name": "Brass",
+      "path": "cg-textures/metal/brass"
+    },
+    {
+      "name": "Brushed",
+      "path": "cg-textures/metal/brushed"
+    },
+    {
+      "name": "Copper and Bronze",
+      "path": "cg-textures/metal/copper-and-bronze"
+    },
+    {
+      "name": "Containers",
+      "path": "cg-textures/metal/containers"
+    },
+    {
+      "name": "Corrugated",
+      "path": "cg-textures/metal/corrugated"
+    },
+    {
+      "name": "Galvanized",
+      "path": "cg-textures/metal/galvanized"
+    },
+    {
+      "name": "Leaking",
+      "path": "cg-textures/metal/leaking"
+    },
+    {
+      "name": "Painted",
+      "path": "cg-textures/metal/painted"
+    },
+    {
+      "name": "Rust",
+      "path": "cg-textures/metal/rust"
+    },
+    {
+      "name": "Scratched",
+      "path": "cg-textures/metal/scratched"
+    },
+    {
+      "name": "Seams and Bolts",
+      "path": "cg-textures/metal/seams-and-bolts"
+    },
+    {
+      "name": "Thread plate",
+      "path": "cg-textures/metal/thread-plate"
+    },
+    {
+      "name": "Ornaments",
+      "path": "cg-textures/ornaments"
+    },
+    {
+      "name": "Stone",
+      "path": "cg-textures/ornaments/stone"
+    },
+    {
+      "name": "Wood",
+      "path": "cg-textures/ornaments/wood"
+    },
+    {
+      "name": "Paper",
+      "path": "cg-textures/paper"
+    },
+    {
+      "name": "Plaster",
+      "path": "cg-textures/plaster"
+    },
+    {
+      "name": "Plastic",
+      "path": "cg-textures/plastic"
+    },
+    {
+      "name": "Roads",
+      "path": "cg-textures/roads"
+    },
+    {
+      "name": "Roofing",
+      "path": "cg-textures/roofing"
+    },
+    {
+      "name": "Skies",
+      "path": "cg-textures/skies"
+    },
+    {
+      "name": "Splatter",
+      "path": "cg-textures/splatter"
+    },
+    {
+      "name": "Stone",
+      "path": "cg-textures/stone"
+    },
+    {
+      "name": "Marble",
+      "path": "cg-textures/stone/marble"
+    },
+    {
+      "name": "Rock",
+      "path": "cg-textures/stone/rock"
+    },
+    {
+      "name": "Tiles",
+      "path": "cg-textures/tiles"
+    },
+    {
+      "name": "Walls",
+      "path": "cg-textures/walls"
+    },
+    {
+      "name": "Brick",
+      "path": "cg-textures/walls/brick"
+    },
+    {
+      "name": "Stone",
+      "path": "cg-textures/walls/stone"
+    },
+    {
+      "name": "Wallpaper",
+      "path": "cg-textures/walls/wallpaper"
+    },
+    {
+      "name": "Wood",
+      "path": "cg-textures/walls/wood"
+    },
+    {
+      "name": "Water",
+      "path": "cg-textures/water"
+    },
+    {
+      "name": "Windows",
+      "path": "cg-textures/windows"
+    },
+    {
+      "name": "Wood",
+      "path": "cg-textures/wood"
+    },
+    {
+      "name": "Bark",
+      "path": "cg-textures/wood/bark"
+    },
+    {
+      "name": "Burned",
+      "path": "cg-textures/wood/burned"
+    },
+    {
+      "name": "Ends",
+      "path": "cg-textures/wood/ends"
+    },
+    {
+      "name": "Fine",
+      "path": "cg-textures/wood/fine"
+    },
+    {
+      "name": "Painted",
+      "path": "cg-textures/wood/painted"
+    },
+    {
+      "name": "Planks",
+      "path": "cg-textures/wood/planks"
+    },
+    {
+      "name": "Plywood",
+      "path": "cg-textures/wood/plywood"
+    },
+    {
+      "name": "Weathered",
+      "path": "cg-textures/wood/weathered"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "cg-textures/miscellaneous"
+    },
+    {
+      "name": "2D Concepts",
+      "path": "2d-concepts"
+    },
+    {
+      "name": "Architecture",
+      "path": "2d-concepts/architecture"
+    },
+    {
+      "name": "Characters",
+      "path": "2d-concepts/characters"
+    },
+    {
+      "name": "Creatures",
+      "path": "2d-concepts/creatures"
+    },
+    {
+      "name": "Technical Drawings",
+      "path": "2d-concepts/technical-drawings"
+    },
+    {
+      "name": "Vehicles",
+      "path": "2d-concepts/vehicles"
+    },
+    {
+      "name": "Weapons",
+      "path": "2d-concepts/weapons"
+    },
+    {
+      "name": "Miscellaneous",
+      "path": "2d-concepts/miscellaneous"
+    },
+    {
+      "name": "Scripts And Plugins",
+      "path": "scripts-and-plugins"
+    },
+    {
+      "name": "Scripts",
+      "path": "scripts-and-plugins/scripts"
+    },
+    {
+      "name": "Plugins",
+      "path": "scripts-and-plugins/plugins"
+    }
+  ]
+}
